@@ -631,9 +631,17 @@ PrefabInstance:
       value: 2.56
       objectReference: {fileID: 0}
     - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
+      propertyPath: spawnSettings
+      value: 
+      objectReference: {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
     - target: {fileID: 531396669210149863, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
       propertyPath: m_RootOrder
       value: 3
