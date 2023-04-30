@@ -37,4 +37,14 @@ public class Player1Health : MonoBehaviour
     {
         return _playerStartingHealth;
     }
+
+    public int GetEnemyHealth()
+    {
+        return playerHealth;
+    }
+
+    public void ReduceHealth(int healthToReduce)
+    {
+        playerHealth -= healthToReduce;
+    }
 }

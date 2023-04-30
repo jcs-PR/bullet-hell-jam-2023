@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,22 @@ using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
+    [SerializeField] private int enemyHealth = 5;
     [SerializeField] private int resetTime = 3;
+
+
+    private void Update()
+    {
+        DestroyEnemy();
+    }
+
+    void DestroyEnemy()
+    {
+        if (enemyHealth <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -15,6 +31,21 @@ public class EnemyHealth : MonoBehaviour
             player1Health.SetPlayerHealth(0);
             StartCoroutine(ResetGame());
         }
+    }
+
+    public void ReduceEnemyHealth(int healthToReduce)
+    {
+        enemyHealth -= healthToReduce;
+    }
+
+    public void SetEnemyHealth(int healthToSet)
+    {
+        enemyHealth = healthToSet;
+    }
+
+    public int GetEnemyHealth()
+    {
+        return enemyHealth;
     }
 
     IEnumerator ResetGame()
