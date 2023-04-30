@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6352378351172105611}
   - component: {fileID: 6352378351172105620}
-  - component: {fileID: 6352378351172105622}
   - component: {fileID: 6352378351172105610}
   - component: {fileID: 6352378351172105609}
   - component: {fileID: 1229940179}
+  - component: {fileID: 1229940196}
+  - component: {fileID: 1229940197}
   m_Layer: 0
   m_Name: Enemy_White
   m_TagString: Untagged
@@ -88,18 +89,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6352378351172105622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6352378351172105623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25032447297c4994fadb1d091ebcdf9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6352378351172105610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -159,4 +148,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257e4c4414bac7445892b41f1f3848c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: 5
   resetTime: 3
+--- !u!114 &1229940196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352378351172105623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 512
+  shape: 0
+  radius: 0.5
+  size: {x: 1, y: 1, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1229940197}
+        m_TargetAssemblyTypeName: EnemyHit, Assembly-CSharp
+        m_MethodName: OnBulletHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
+--- !u!114 &1229940197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352378351172105623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

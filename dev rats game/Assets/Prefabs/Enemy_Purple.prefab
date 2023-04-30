@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6590397955915145256}
   - component: {fileID: 1366442206}
   - component: {fileID: 1366442207}
-  - component: {fileID: 8513313271523439806}
   - component: {fileID: 1366442210}
   - component: {fileID: 1366442217}
+  - component: {fileID: 192044020}
+  - component: {fileID: 192044021}
   m_Layer: 0
   m_Name: Enemy_Purple
   m_TagString: Untagged
@@ -136,7 +137,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8513313271523439806
+--- !u!114 &1366442210
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,25 +146,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6791514189416909715}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 075ed7c39f8721047b2f090e3ab23c67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1366442210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6791514189416909715}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderCamera: {fileID: 0}
+  renderCamera: {fileID: 7920306400040841789, guid: c72846ceac12a1c4cbb9a4b3f5dce337, type: 3}
   manualFire: 0
   bulletSettings: {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
-  spawnSettings: {fileID: 0}
+  spawnSettings: {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
   currentActiveBullets: 0
   maxActiveBullets: 0
   seed: 
@@ -194,4 +183,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257e4c4414bac7445892b41f1f3848c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: 5
   resetTime: 3
+--- !u!114 &192044020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6791514189416909715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 512
+  shape: 0
+  radius: 0.5
+  size: {x: 1, y: 1, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 192044021}
+        m_TargetAssemblyTypeName: EnemyHit, Assembly-CSharp
+        m_MethodName: OnBulletHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
+--- !u!114 &192044021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6791514189416909715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

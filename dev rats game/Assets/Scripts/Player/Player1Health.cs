@@ -5,12 +5,15 @@ using UnityEngine.Serialization;
 
 public class Player1Health : MonoBehaviour
 {
+    private GameManager _gameManager;
+    
     [SerializeField] private int playerHealth = 5;
     private int _playerStartingHealth;
     
     // Start is called before the first frame update
     void Start()
     {
+        _gameManager = FindObjectOfType<GameManager>();
         _playerStartingHealth = playerHealth;
     }
 
@@ -25,6 +28,7 @@ public class Player1Health : MonoBehaviour
 
     void PlayerDeath()
     {
+        StartCoroutine(_gameManager.ResetGame());
         Destroy(this.gameObject);
     }
 
@@ -38,11 +42,10 @@ public class Player1Health : MonoBehaviour
         return _playerStartingHealth;
     }
 
-    public int GetEnemyHealth()
+    public int GetPlayerHealth()
     {
         return playerHealth;
     }
-
     public void ReduceHealth(int healthToReduce)
     {
         playerHealth -= healthToReduce;

@@ -29,7 +29,6 @@ public class EnemyHealth : MonoBehaviour
         {
             Player1Health player1Health = other.gameObject.GetComponent<Player1Health>();
             player1Health.SetPlayerHealth(0);
-            StartCoroutine(ResetGame());
         }
     }
 
@@ -46,12 +45,5 @@ public class EnemyHealth : MonoBehaviour
     public int GetEnemyHealth()
     {
         return enemyHealth;
-    }
-
-    IEnumerator ResetGame()
-    {
-        yield return new WaitForSeconds(resetTime);
-        int currentScene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentScene);
     }
 }
