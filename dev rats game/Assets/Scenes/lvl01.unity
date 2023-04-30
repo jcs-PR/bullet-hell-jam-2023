@@ -123,64 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &192044003 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6791514189416909715, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-  m_PrefabInstance: {fileID: 2329713007093136256}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &192044011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192044003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletLayersToBeHitBy:
-    serializedVersion: 2
-    m_Bits: 512
-  shape: 0
-  radius: 0.5
-  size: {x: 1, y: 1, z: 1}
-  destroyBullet: 1
-  center: {x: 0, y: 0, z: 0}
-  pointA: {x: 0, y: 0, z: 0}
-  pointB: {x: 0, y: 0, z: 0}
-  pointC: {x: 0, y: 0, z: 0}
-  OnCollide:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 192044012}
-        m_TargetAssemblyTypeName: EnemyHit, Assembly-CSharp
-        m_MethodName: OnBulletHit
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  bounce: 0
-  lifetimeLoss: 0
-  bounciness: 0
---- !u!114 &192044012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192044003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &474129233
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,236 +526,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &846440349 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3703841084916192243, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-  m_PrefabInstance: {fileID: 3703841085682807918}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &846440351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
   m_PrefabInstance: {fileID: 3703841085682807918}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &846440356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b6c8e36811d1243b2f12880b98dc36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 5
---- !u!114 &846440357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 519420031}
-  manualFire: 1
-  bulletSettings: {fileID: 11400000, guid: 55598acd64699b64d97e8f60430ff0ae, type: 2}
-  spawnSettings: {fileID: 11400000, guid: dcb486b716744c64abf33b27e39648f6, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 0
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &846440362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!111 &846440363
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 107552c98d9bd9847a5842c26f94b16d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 107552c98d9bd9847a5842c26f94b16d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!114 &846440364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletLayersToBeHitBy:
-    serializedVersion: 2
-    m_Bits: 1024
-  shape: 0
-  radius: 0.5
-  size: {x: 1, y: 1, z: 1}
-  destroyBullet: 1
-  center: {x: 0, y: 0, z: 0}
-  pointA: {x: 0, y: 0, z: 0}
-  pointB: {x: 0, y: 0, z: 0}
-  pointC: {x: 0, y: 0, z: 0}
-  OnCollide:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 846440365}
-        m_TargetAssemblyTypeName: PlayerHit, Assembly-CSharp
-        m_MethodName: OnBulletHit
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  bounce: 0
-  lifetimeLoss: 0
-  bounciness: 0
---- !u!114 &846440365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9c03422f7ee8d94db69049502525acd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1229940172 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6352378351172105623, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
-  m_PrefabInstance: {fileID: 6352378352123367515}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1229940180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229940172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 519420031}
-  manualFire: 0
-  bulletSettings: {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
-  spawnSettings: {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 1
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1229940187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229940172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletLayersToBeHitBy:
-    serializedVersion: 2
-    m_Bits: 512
-  shape: 0
-  radius: 0.5
-  size: {x: 1, y: 1, z: 1}
-  destroyBullet: 1
-  center: {x: 0, y: 0, z: 0}
-  pointA: {x: 0, y: 0, z: 0}
-  pointB: {x: 0, y: 0, z: 0}
-  pointC: {x: 0, y: 0, z: 0}
-  OnCollide:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1229940188}
-        m_TargetAssemblyTypeName: EnemyHit, Assembly-CSharp
-        m_MethodName: OnBulletHit
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  bounce: 0
-  lifetimeLoss: 0
-  bounciness: 0
---- !u!114 &1229940188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229940172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1679018671
 GameObject:
   m_ObjectHideFlags: 3
@@ -1009,26 +726,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1366442207, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-      propertyPath: m_Size.x
-      value: 2.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 1366442207, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-      propertyPath: m_Size.y
-      value: 2.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-      propertyPath: spawnSettings
-      value: 
-      objectReference: {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
     - target: {fileID: 531396669210149863, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1077,10 +778,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Purple
       objectReference: {fileID: 0}
-    - target: {fileID: 6791514189416909715, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
 --- !u!1001 &3703841085682807918
@@ -1090,26 +787,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 846440352, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 846440353, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 846440353, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 846440354, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: p1Speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3703841084916192240, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 846440357, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+      propertyPath: renderCamera
       value: 
-      objectReference: {fileID: 21300000, guid: acd79829c9974ad45aff908b2a62626a, type: 3}
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 846440362, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+      propertyPath: maxBulletAmount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1158,10 +843,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3703841084916192243, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
 --- !u!1001 &6352378352123367515
@@ -1171,6 +852,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1229940180, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
+      propertyPath: renderCamera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 6352378351172105611, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1218,10 +903,6 @@ PrefabInstance:
     - target: {fileID: 6352378351172105623, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
       propertyPath: m_Name
       value: Enemy_White
-      objectReference: {fileID: 0}
-    - target: {fileID: 6352378351172105623, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
