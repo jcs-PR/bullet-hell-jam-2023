@@ -4,22 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyHealth : MonoBehaviour
+public class PurpleEnemyHealth : MonoBehaviour
 {
-    [SerializeField] private int enemyHealth = 5;
     [SerializeField] private int resetTime = 3;
-
-
-    private void Update()
+    // Start is called before the first frame update
+    void Start()
     {
-        DestroyEnemy();
+        
     }
 
-    void DestroyEnemy()
+    // Update is called once per frame
+    void Update()
     {
-        if (enemyHealth <= 0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Destroy(this.gameObject);
+            
         }
     }
 
@@ -31,21 +30,6 @@ public class EnemyHealth : MonoBehaviour
             player1Health.SetPlayerHealth(0);
             StartCoroutine(ResetGame());
         }
-    }
-
-    public void ReduceEnemyHealth(int healthToReduce)
-    {
-        enemyHealth -= healthToReduce;
-    }
-
-    public void SetEnemyHealth(int healthToSet)
-    {
-        enemyHealth = healthToSet;
-    }
-
-    public int GetEnemyHealth()
-    {
-        return enemyHealth;
     }
 
     IEnumerator ResetGame()

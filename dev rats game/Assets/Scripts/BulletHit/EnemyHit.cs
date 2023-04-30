@@ -13,6 +13,12 @@ public class EnemyHit : MonoBehaviour
         _eC = GetComponent<EnemyHealth>();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
     public void OnBulletHit(BulletContainer bCon, BulletCollider bCol)
     {
         _eC.ReduceEnemyHealth(1);
