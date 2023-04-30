@@ -7,6 +7,8 @@ using BulletFury.Data;
 public class EnemyHit : MonoBehaviour
 {
     private EnemyHealth _eC;
+    
+    [SerializeField] private int healthToReduce = 5; 
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,6 @@ public class EnemyHit : MonoBehaviour
 
     public void OnBulletHit(BulletContainer bCon, BulletCollider bCol)
     {
-        _eC.ReduceEnemyHealth(1);
+        _eC.ReduceEnemyHealth(healthToReduce);
     }
 }

@@ -171,7 +171,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &5917689
 SpriteRenderer:
@@ -288,7 +288,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &6881118
 SpriteRenderer:
@@ -405,7 +405,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &7321019
 SpriteRenderer:
@@ -522,7 +522,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &8137137
 SpriteRenderer:
@@ -710,7 +710,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &16658495
 SpriteRenderer:
@@ -827,7 +827,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &20502583
 SpriteRenderer:
@@ -944,7 +944,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &21744500
 SpriteRenderer:
@@ -1061,7 +1061,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &22091693
 SpriteRenderer:
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &22960127
 SpriteRenderer:
@@ -1295,7 +1295,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &30467215
 SpriteRenderer:
@@ -1412,7 +1412,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &32363214
 SpriteRenderer:
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &44656896
 SpriteRenderer:
@@ -1646,7 +1646,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &46327125
 SpriteRenderer:
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &48206122
 SpriteRenderer:
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &60554516
 SpriteRenderer:
@@ -1997,7 +1997,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &60880287
 SpriteRenderer:
@@ -2114,7 +2114,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &67628762
 SpriteRenderer:
@@ -2231,7 +2231,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &72887304
 SpriteRenderer:
@@ -2348,7 +2348,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &74454978
 SpriteRenderer:
@@ -2465,7 +2465,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &78051560
 SpriteRenderer:
@@ -2582,7 +2582,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &81975668
 SpriteRenderer:
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &87179835
 SpriteRenderer:
@@ -2816,7 +2816,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &89544813
 SpriteRenderer:
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &90128275
 SpriteRenderer:
@@ -3050,7 +3050,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &94759501
 SpriteRenderer:
@@ -3167,7 +3167,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &95737702
 SpriteRenderer:
@@ -3284,7 +3284,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &97725153
 SpriteRenderer:
@@ -3401,7 +3401,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &98528021
 SpriteRenderer:
@@ -3518,7 +3518,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &99441563
 SpriteRenderer:
@@ -3635,7 +3635,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &110074065
 SpriteRenderer:
@@ -3752,7 +3752,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &113231537
 SpriteRenderer:
@@ -3869,7 +3869,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &115085624
 SpriteRenderer:
@@ -3986,7 +3986,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &116717408
 SpriteRenderer:
@@ -4103,7 +4103,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &118207118
 SpriteRenderer:
@@ -4220,7 +4220,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &119877140
 SpriteRenderer:
@@ -4337,7 +4337,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &120075276
 SpriteRenderer:
@@ -4454,7 +4454,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &122188263
 SpriteRenderer:
@@ -4571,7 +4571,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &124659255
 SpriteRenderer:
@@ -4688,7 +4688,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &126872361
 SpriteRenderer:
@@ -4805,7 +4805,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &133587590
 SpriteRenderer:
@@ -4922,7 +4922,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &138897973
 SpriteRenderer:
@@ -5039,7 +5039,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &139059855
 SpriteRenderer:
@@ -5156,7 +5156,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &157923273
 SpriteRenderer:
@@ -5273,7 +5273,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &159328548
 SpriteRenderer:
@@ -5390,7 +5390,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &164073383
 SpriteRenderer:
@@ -5507,7 +5507,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &165629039
 SpriteRenderer:
@@ -5624,7 +5624,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &168558544
 SpriteRenderer:
@@ -5741,7 +5741,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &170461104
 SpriteRenderer:
@@ -5946,7 +5946,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &178590002
 SpriteRenderer:
@@ -6063,7 +6063,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &185491564
 SpriteRenderer:
@@ -6180,7 +6180,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &186380362
 SpriteRenderer:
@@ -6297,7 +6297,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &194062627
 SpriteRenderer:
@@ -6414,7 +6414,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &197010222
 SpriteRenderer:
@@ -6531,7 +6531,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &197537608
 SpriteRenderer:
@@ -6648,7 +6648,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &197798281
 SpriteRenderer:
@@ -6765,7 +6765,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &209447649
 SpriteRenderer:
@@ -6882,7 +6882,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &210597075
 SpriteRenderer:
@@ -6999,7 +6999,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &213029243
 SpriteRenderer:
@@ -7116,7 +7116,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &214863088
 SpriteRenderer:
@@ -7233,7 +7233,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &215181041
 SpriteRenderer:
@@ -7350,7 +7350,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &216764795
 SpriteRenderer:
@@ -7467,7 +7467,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &220530053
 SpriteRenderer:
@@ -7584,7 +7584,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &226855741
 SpriteRenderer:
@@ -7701,7 +7701,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &232488268
 SpriteRenderer:
@@ -7818,7 +7818,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &233186714
 SpriteRenderer:
@@ -7935,7 +7935,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &236462449
 SpriteRenderer:
@@ -8052,7 +8052,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &236793480
 SpriteRenderer:
@@ -8169,7 +8169,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &238362840
 SpriteRenderer:
@@ -8439,7 +8439,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &240605975
 SpriteRenderer:
@@ -8556,7 +8556,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &244635832
 SpriteRenderer:
@@ -8673,7 +8673,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &247026814
 SpriteRenderer:
@@ -8790,7 +8790,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &247807588
 SpriteRenderer:
@@ -8907,7 +8907,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &249948497
 SpriteRenderer:
@@ -9024,7 +9024,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &254475866
 SpriteRenderer:
@@ -9141,7 +9141,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &255530082
 SpriteRenderer:
@@ -9258,7 +9258,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &261286930
 SpriteRenderer:
@@ -9375,7 +9375,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &272315283
 SpriteRenderer:
@@ -9492,7 +9492,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &273117919
 SpriteRenderer:
@@ -9609,7 +9609,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &279978426
 SpriteRenderer:
@@ -9726,7 +9726,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &280374540
 SpriteRenderer:
@@ -9843,7 +9843,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &282727401
 SpriteRenderer:
@@ -9960,7 +9960,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &289303232
 SpriteRenderer:
@@ -10077,7 +10077,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &291244327
 SpriteRenderer:
@@ -10194,7 +10194,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &294576317
 SpriteRenderer:
@@ -10311,7 +10311,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &302386530
 SpriteRenderer:
@@ -10428,7 +10428,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &309202416
 SpriteRenderer:
@@ -10545,7 +10545,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &312367707
 SpriteRenderer:
@@ -10662,7 +10662,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &312844172
 SpriteRenderer:
@@ -10779,7 +10779,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &313394787
 SpriteRenderer:
@@ -10896,7 +10896,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &316249604
 SpriteRenderer:
@@ -11013,7 +11013,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &318257363
 SpriteRenderer:
@@ -11130,7 +11130,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &321466428
 SpriteRenderer:
@@ -11247,7 +11247,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &326323876
 SpriteRenderer:
@@ -11364,7 +11364,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &327963686
 SpriteRenderer:
@@ -11481,7 +11481,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &329034502
 SpriteRenderer:
@@ -11598,7 +11598,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &334222338
 SpriteRenderer:
@@ -11715,7 +11715,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &335467858
 SpriteRenderer:
@@ -11832,7 +11832,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &336499274
 SpriteRenderer:
@@ -11949,7 +11949,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &339598998
 SpriteRenderer:
@@ -12066,7 +12066,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &341162580
 SpriteRenderer:
@@ -12183,7 +12183,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &342811477
 SpriteRenderer:
@@ -12300,7 +12300,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &343109073
 SpriteRenderer:
@@ -12417,7 +12417,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &355373719
 SpriteRenderer:
@@ -12534,7 +12534,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &355609826
 SpriteRenderer:
@@ -12651,7 +12651,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &358704556
 SpriteRenderer:
@@ -12768,7 +12768,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &360722531
 SpriteRenderer:
@@ -12885,7 +12885,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &361133848
 SpriteRenderer:
@@ -13002,7 +13002,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &361240932
 SpriteRenderer:
@@ -13119,7 +13119,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &364567410
 SpriteRenderer:
@@ -13236,7 +13236,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &366494243
 SpriteRenderer:
@@ -13353,7 +13353,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &369608605
 SpriteRenderer:
@@ -13470,7 +13470,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &371400168
 SpriteRenderer:
@@ -13587,7 +13587,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &379712652
 SpriteRenderer:
@@ -13704,7 +13704,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &384749721
 SpriteRenderer:
@@ -13821,7 +13821,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &393525013
 SpriteRenderer:
@@ -13938,7 +13938,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &396405088
 SpriteRenderer:
@@ -14055,7 +14055,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &396739397
 SpriteRenderer:
@@ -14283,7 +14283,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &398663646
 SpriteRenderer:
@@ -14400,7 +14400,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &405714520
 SpriteRenderer:
@@ -14517,7 +14517,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &409489306
 SpriteRenderer:
@@ -14634,7 +14634,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &411120982
 SpriteRenderer:
@@ -14751,7 +14751,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &415238268
 SpriteRenderer:
@@ -14868,7 +14868,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &417271363
 SpriteRenderer:
@@ -14985,7 +14985,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &420377894
 SpriteRenderer:
@@ -15102,7 +15102,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &422107396
 SpriteRenderer:
@@ -15219,7 +15219,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &427432392
 SpriteRenderer:
@@ -15336,7 +15336,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &432431807
 SpriteRenderer:
@@ -15453,7 +15453,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &433097735
 SpriteRenderer:
@@ -15570,7 +15570,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &433241739
 SpriteRenderer:
@@ -15687,7 +15687,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &433512455
 SpriteRenderer:
@@ -15804,7 +15804,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &442287298
 SpriteRenderer:
@@ -15921,7 +15921,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &448876986
 SpriteRenderer:
@@ -16038,7 +16038,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &448900326
 SpriteRenderer:
@@ -16155,7 +16155,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &450200187
 SpriteRenderer:
@@ -16272,7 +16272,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &451674997
 SpriteRenderer:
@@ -16389,7 +16389,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &454672038
 SpriteRenderer:
@@ -16506,7 +16506,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &455239074
 SpriteRenderer:
@@ -16623,7 +16623,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &460698915
 SpriteRenderer:
@@ -16740,7 +16740,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &463412666
 SpriteRenderer:
@@ -16857,7 +16857,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &463991815
 SpriteRenderer:
@@ -16933,14 +16933,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 846440354, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: p1Speed
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 846440354, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: smoothSpeed
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17039,7 +17031,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &470476914
 SpriteRenderer:
@@ -17156,7 +17148,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &472253951
 SpriteRenderer:
@@ -17273,7 +17265,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &475468870
 SpriteRenderer:
@@ -17390,7 +17382,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &478119224
 SpriteRenderer:
@@ -17507,7 +17499,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &479782624
 SpriteRenderer:
@@ -17624,7 +17616,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &481371135
 SpriteRenderer:
@@ -17741,7 +17733,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &484460587
 SpriteRenderer:
@@ -17858,7 +17850,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &488912148
 SpriteRenderer:
@@ -17975,7 +17967,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &490498649
 SpriteRenderer:
@@ -18092,7 +18084,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &492723052
 SpriteRenderer:
@@ -18209,7 +18201,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &493533128
 SpriteRenderer:
@@ -18326,7 +18318,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &493872123
 SpriteRenderer:
@@ -18443,7 +18435,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &494176634
 SpriteRenderer:
@@ -18560,7 +18552,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &500368132
 SpriteRenderer:
@@ -18677,7 +18669,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &500806470
 SpriteRenderer:
@@ -18794,7 +18786,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &506147118
 SpriteRenderer:
@@ -18911,7 +18903,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &517196231
 SpriteRenderer:
@@ -19028,7 +19020,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &517301274
 SpriteRenderer:
@@ -19145,7 +19137,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &522844387
 SpriteRenderer:
@@ -19262,7 +19254,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &525913153
 SpriteRenderer:
@@ -19379,7 +19371,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &528131782
 SpriteRenderer:
@@ -19496,7 +19488,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &529351726
 SpriteRenderer:
@@ -19613,7 +19605,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &531143414
 SpriteRenderer:
@@ -19730,7 +19722,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &531796796
 SpriteRenderer:
@@ -19847,7 +19839,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &536633780
 SpriteRenderer:
@@ -19964,7 +19956,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &537017881
 SpriteRenderer:
@@ -20081,7 +20073,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &549711028
 SpriteRenderer:
@@ -20198,7 +20190,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &551637762
 SpriteRenderer:
@@ -20315,7 +20307,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &552092029
 SpriteRenderer:
@@ -20432,7 +20424,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &553205074
 SpriteRenderer:
@@ -20549,7 +20541,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &560626257
 SpriteRenderer:
@@ -20666,7 +20658,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &561272295
 SpriteRenderer:
@@ -20783,7 +20775,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &565408268
 SpriteRenderer:
@@ -20900,7 +20892,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &567496924
 SpriteRenderer:
@@ -21017,7 +21009,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &577843156
 SpriteRenderer:
@@ -21134,7 +21126,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &578226486
 SpriteRenderer:
@@ -21251,7 +21243,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &580684651
 SpriteRenderer:
@@ -21368,7 +21360,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &583982814
 SpriteRenderer:
@@ -21485,7 +21477,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &584875347
 SpriteRenderer:
@@ -21602,7 +21594,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &587124400
 SpriteRenderer:
@@ -21719,7 +21711,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &593193849
 SpriteRenderer:
@@ -21836,7 +21828,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &600049003
 SpriteRenderer:
@@ -21953,7 +21945,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &604484255
 SpriteRenderer:
@@ -22070,7 +22062,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &607843638
 SpriteRenderer:
@@ -22187,7 +22179,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &610796873
 SpriteRenderer:
@@ -22304,7 +22296,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &613007395
 SpriteRenderer:
@@ -22421,7 +22413,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &615114064
 SpriteRenderer:
@@ -22538,7 +22530,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &620136067
 SpriteRenderer:
@@ -22655,7 +22647,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &621220034
 SpriteRenderer:
@@ -22772,7 +22764,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &628672167
 SpriteRenderer:
@@ -22889,7 +22881,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &631212895
 SpriteRenderer:
@@ -23006,7 +22998,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &631535092
 SpriteRenderer:
@@ -23123,7 +23115,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &632253366
 SpriteRenderer:
@@ -23240,7 +23232,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &636171390
 SpriteRenderer:
@@ -23357,7 +23349,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &637610620
 SpriteRenderer:
@@ -23474,7 +23466,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &641947475
 SpriteRenderer:
@@ -23591,7 +23583,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &643136338
 SpriteRenderer:
@@ -23708,7 +23700,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &651573423
 SpriteRenderer:
@@ -23825,7 +23817,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &657376130
 SpriteRenderer:
@@ -23942,7 +23934,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &660572801
 SpriteRenderer:
@@ -24059,7 +24051,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &661162393
 SpriteRenderer:
@@ -24176,7 +24168,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &668365710
 SpriteRenderer:
@@ -24293,7 +24285,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &672072759
 SpriteRenderer:
@@ -24410,7 +24402,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &674145940
 SpriteRenderer:
@@ -24527,7 +24519,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &676051965
 SpriteRenderer:
@@ -24644,7 +24636,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &680984737
 SpriteRenderer:
@@ -24761,7 +24753,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &681636726
 SpriteRenderer:
@@ -24878,7 +24870,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &685496932
 SpriteRenderer:
@@ -24995,7 +24987,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &687866742
 SpriteRenderer:
@@ -25112,7 +25104,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &687953367
 SpriteRenderer:
@@ -25229,7 +25221,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &689056746
 SpriteRenderer:
@@ -25346,7 +25338,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &689790894
 SpriteRenderer:
@@ -25463,7 +25455,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &691730551
 SpriteRenderer:
@@ -25580,7 +25572,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &694683466
 SpriteRenderer:
@@ -25697,7 +25689,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &699987993
 SpriteRenderer:
@@ -25814,7 +25806,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &706954341
 SpriteRenderer:
@@ -25931,7 +25923,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &707180552
 SpriteRenderer:
@@ -26048,7 +26040,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &707860347
 SpriteRenderer:
@@ -26165,7 +26157,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &711133854
 SpriteRenderer:
@@ -26282,7 +26274,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &712832408
 SpriteRenderer:
@@ -26399,7 +26391,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &715848749
 SpriteRenderer:
@@ -26516,7 +26508,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &719640797
 SpriteRenderer:
@@ -26633,7 +26625,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &726353521
 SpriteRenderer:
@@ -26750,7 +26742,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &726801984
 SpriteRenderer:
@@ -26867,7 +26859,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &730384869
 SpriteRenderer:
@@ -26984,7 +26976,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &738116568
 SpriteRenderer:
@@ -27101,7 +27093,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &740469704
 SpriteRenderer:
@@ -27218,7 +27210,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &742767350
 SpriteRenderer:
@@ -27335,7 +27327,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &744498898
 SpriteRenderer:
@@ -27452,7 +27444,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &744665077
 SpriteRenderer:
@@ -27569,7 +27561,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &747681675
 SpriteRenderer:
@@ -27686,7 +27678,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &754927234
 SpriteRenderer:
@@ -27803,7 +27795,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &754928388
 SpriteRenderer:
@@ -27920,7 +27912,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &759301427
 SpriteRenderer:
@@ -28037,7 +28029,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &762087958
 SpriteRenderer:
@@ -28154,7 +28146,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &765227594
 SpriteRenderer:
@@ -28271,7 +28263,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &766583354
 SpriteRenderer:
@@ -28388,7 +28380,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &766631985
 SpriteRenderer:
@@ -28505,7 +28497,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &767130421
 SpriteRenderer:
@@ -28622,7 +28614,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &768903196
 SpriteRenderer:
@@ -28739,7 +28731,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &773518054
 SpriteRenderer:
@@ -28856,7 +28848,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &774797738
 SpriteRenderer:
@@ -28973,7 +28965,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &780615519
 SpriteRenderer:
@@ -29090,7 +29082,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &782286697
 SpriteRenderer:
@@ -29207,7 +29199,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &783928872
 SpriteRenderer:
@@ -29324,7 +29316,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &784746754
 SpriteRenderer:
@@ -29441,7 +29433,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &790389920
 SpriteRenderer:
@@ -29558,7 +29550,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &795234033
 SpriteRenderer:
@@ -29675,7 +29667,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &796012485
 SpriteRenderer:
@@ -29792,7 +29784,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &796992416
 SpriteRenderer:
@@ -29909,7 +29901,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &798308870
 SpriteRenderer:
@@ -30026,7 +30018,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &808362366
 SpriteRenderer:
@@ -30143,7 +30135,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &812129574
 SpriteRenderer:
@@ -30260,7 +30252,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &812214182
 SpriteRenderer:
@@ -30377,7 +30369,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &813907827
 SpriteRenderer:
@@ -30494,7 +30486,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &823150333
 SpriteRenderer:
@@ -30611,7 +30603,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &828323069
 SpriteRenderer:
@@ -30728,7 +30720,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &830079208
 SpriteRenderer:
@@ -30845,7 +30837,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &836394110
 SpriteRenderer:
@@ -30962,7 +30954,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &836460447
 SpriteRenderer:
@@ -31079,7 +31071,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &839465541
 SpriteRenderer:
@@ -31196,7 +31188,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &843019206
 SpriteRenderer:
@@ -31313,7 +31305,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &843733551
 SpriteRenderer:
@@ -31430,7 +31422,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &844477265
 SpriteRenderer:
@@ -31547,7 +31539,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &848537625
 SpriteRenderer:
@@ -31664,7 +31656,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &852507861
 SpriteRenderer:
@@ -31781,7 +31773,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &852713143
 SpriteRenderer:
@@ -31898,7 +31890,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &855121326
 SpriteRenderer:
@@ -32015,7 +32007,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &856040032
 SpriteRenderer:
@@ -32132,7 +32124,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &858082486
 SpriteRenderer:
@@ -32249,7 +32241,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &858630703
 SpriteRenderer:
@@ -32366,7 +32358,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &864329613
 SpriteRenderer:
@@ -32483,7 +32475,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &864395710
 SpriteRenderer:
@@ -32600,7 +32592,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &866398067
 SpriteRenderer:
@@ -32717,7 +32709,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &866407168
 SpriteRenderer:
@@ -32834,7 +32826,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &866815628
 SpriteRenderer:
@@ -32951,7 +32943,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &874058852
 SpriteRenderer:
@@ -33068,7 +33060,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &888002742
 SpriteRenderer:
@@ -33185,7 +33177,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &891733892
 SpriteRenderer:
@@ -33302,7 +33294,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &892257422
 SpriteRenderer:
@@ -33419,7 +33411,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &894730758
 SpriteRenderer:
@@ -33536,7 +33528,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &903866225
 SpriteRenderer:
@@ -33653,7 +33645,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &905958627
 SpriteRenderer:
@@ -33770,7 +33762,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &907846717
 SpriteRenderer:
@@ -33887,7 +33879,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &912812513
 SpriteRenderer:
@@ -34004,7 +33996,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &914575620
 SpriteRenderer:
@@ -34121,7 +34113,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &916901228
 SpriteRenderer:
@@ -34238,7 +34230,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &920980063
 SpriteRenderer:
@@ -34355,7 +34347,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &923750998
 SpriteRenderer:
@@ -34472,7 +34464,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &926863114
 SpriteRenderer:
@@ -34589,7 +34581,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &927612565
 SpriteRenderer:
@@ -34711,7 +34703,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &934232603
 SpriteRenderer:
@@ -34828,7 +34820,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &937847993
 SpriteRenderer:
@@ -34945,7 +34937,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &940419735
 SpriteRenderer:
@@ -35062,7 +35054,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &942224638
 SpriteRenderer:
@@ -35179,7 +35171,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &942772657
 SpriteRenderer:
@@ -35296,7 +35288,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &945510241
 SpriteRenderer:
@@ -35413,7 +35405,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &946013063
 SpriteRenderer:
@@ -35530,7 +35522,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &946459561
 SpriteRenderer:
@@ -35647,7 +35639,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &948375044
 SpriteRenderer:
@@ -35764,7 +35756,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &951310864
 SpriteRenderer:
@@ -35881,7 +35873,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &954547032
 SpriteRenderer:
@@ -35998,7 +35990,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &961569637
 SpriteRenderer:
@@ -36115,7 +36107,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &963351583
 SpriteRenderer:
@@ -36232,7 +36224,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &965116358
 SpriteRenderer:
@@ -36349,7 +36341,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &965460841
 SpriteRenderer:
@@ -36466,7 +36458,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &968489883
 SpriteRenderer:
@@ -36583,7 +36575,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &972184304
 SpriteRenderer:
@@ -36700,7 +36692,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &973226171
 SpriteRenderer:
@@ -36817,7 +36809,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &974835951
 SpriteRenderer:
@@ -36934,7 +36926,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &977714834
 SpriteRenderer:
@@ -37051,7 +37043,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &977996068
 SpriteRenderer:
@@ -37168,7 +37160,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &978348655
 SpriteRenderer:
@@ -37285,7 +37277,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &979030693
 SpriteRenderer:
@@ -37402,7 +37394,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &979358361
 SpriteRenderer:
@@ -37519,7 +37511,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &985531131
 SpriteRenderer:
@@ -37636,7 +37628,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &986361304
 SpriteRenderer:
@@ -37753,7 +37745,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &993154977
 SpriteRenderer:
@@ -37870,7 +37862,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1003454460
 SpriteRenderer:
@@ -37987,7 +37979,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1003562264
 SpriteRenderer:
@@ -38104,7 +38096,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1004543987
 SpriteRenderer:
@@ -38221,7 +38213,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1008469506
 SpriteRenderer:
@@ -38338,7 +38330,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1008682584
 SpriteRenderer:
@@ -38455,7 +38447,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1013747179
 SpriteRenderer:
@@ -38572,7 +38564,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1014387384
 SpriteRenderer:
@@ -38689,7 +38681,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1014482799
 SpriteRenderer:
@@ -38806,7 +38798,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1018013402
 SpriteRenderer:
@@ -38923,7 +38915,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1018414355
 SpriteRenderer:
@@ -39040,7 +39032,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1022504598
 SpriteRenderer:
@@ -39157,7 +39149,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1024346376
 SpriteRenderer:
@@ -39274,7 +39266,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1027169877
 SpriteRenderer:
@@ -39391,7 +39383,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1032492133
 SpriteRenderer:
@@ -39508,7 +39500,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1037936354
 SpriteRenderer:
@@ -39625,7 +39617,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1039879366
 SpriteRenderer:
@@ -39742,7 +39734,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1040263421
 SpriteRenderer:
@@ -39859,7 +39851,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1048546836
 SpriteRenderer:
@@ -39976,7 +39968,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1051790156
 SpriteRenderer:
@@ -40093,7 +40085,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1052072799
 SpriteRenderer:
@@ -40210,7 +40202,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1057552722
 SpriteRenderer:
@@ -40327,7 +40319,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1058991874
 SpriteRenderer:
@@ -40444,7 +40436,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1061501576
 SpriteRenderer:
@@ -40561,7 +40553,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1064553924
 SpriteRenderer:
@@ -40678,7 +40670,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1071286707
 SpriteRenderer:
@@ -40795,7 +40787,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1072619335
 SpriteRenderer:
@@ -40912,7 +40904,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1074798478
 SpriteRenderer:
@@ -41029,7 +41021,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1087607584
 SpriteRenderer:
@@ -41146,7 +41138,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1093044946
 SpriteRenderer:
@@ -41263,7 +41255,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1093594462
 SpriteRenderer:
@@ -41380,7 +41372,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1102497448
 SpriteRenderer:
@@ -41497,7 +41489,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1102826750
 SpriteRenderer:
@@ -41614,7 +41606,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1105990733
 SpriteRenderer:
@@ -41731,7 +41723,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1115153589
 SpriteRenderer:
@@ -41848,7 +41840,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1119007634
 SpriteRenderer:
@@ -41965,7 +41957,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1122922604
 SpriteRenderer:
@@ -42082,7 +42074,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1131225970
 SpriteRenderer:
@@ -42199,7 +42191,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1132888150
 SpriteRenderer:
@@ -42316,7 +42308,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1138770570
 SpriteRenderer:
@@ -42433,7 +42425,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1141441533
 SpriteRenderer:
@@ -42550,7 +42542,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1142399036
 SpriteRenderer:
@@ -42667,7 +42659,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1147860311
 SpriteRenderer:
@@ -42784,7 +42776,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1154544679
 SpriteRenderer:
@@ -42901,7 +42893,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1155361560
 SpriteRenderer:
@@ -43018,7 +43010,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1166148044
 SpriteRenderer:
@@ -43135,7 +43127,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1167555387
 SpriteRenderer:
@@ -43252,7 +43244,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1168991948
 SpriteRenderer:
@@ -43369,7 +43361,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1169484665
 SpriteRenderer:
@@ -43486,7 +43478,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1170855775
 SpriteRenderer:
@@ -43603,7 +43595,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1183772579
 SpriteRenderer:
@@ -43720,7 +43712,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1184143019
 SpriteRenderer:
@@ -43837,7 +43829,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1185347283
 SpriteRenderer:
@@ -43954,7 +43946,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1187277524
 SpriteRenderer:
@@ -44071,7 +44063,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1188024576
 SpriteRenderer:
@@ -44188,7 +44180,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1188366744
 SpriteRenderer:
@@ -44305,7 +44297,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1188811762
 SpriteRenderer:
@@ -44422,7 +44414,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1197236633
 SpriteRenderer:
@@ -44539,7 +44531,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1203629957
 SpriteRenderer:
@@ -44656,7 +44648,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1209733272
 SpriteRenderer:
@@ -44773,7 +44765,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1216812471
 SpriteRenderer:
@@ -44890,7 +44882,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1219222743
 SpriteRenderer:
@@ -45007,7 +44999,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1221586138
 SpriteRenderer:
@@ -45124,7 +45116,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1228246568
 SpriteRenderer:
@@ -45241,7 +45233,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1228471063
 SpriteRenderer:
@@ -45358,7 +45350,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1229870032
 SpriteRenderer:
@@ -45475,7 +45467,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1232218982
 SpriteRenderer:
@@ -45592,7 +45584,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1234410056
 SpriteRenderer:
@@ -45709,7 +45701,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1248699606
 SpriteRenderer:
@@ -45826,7 +45818,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1249617919
 SpriteRenderer:
@@ -45943,7 +45935,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1251434453
 SpriteRenderer:
@@ -46060,7 +46052,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1253485991
 SpriteRenderer:
@@ -46177,7 +46169,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1254538948
 SpriteRenderer:
@@ -46294,7 +46286,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1256905117
 SpriteRenderer:
@@ -46411,7 +46403,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1258597642
 SpriteRenderer:
@@ -46528,7 +46520,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1259084081
 SpriteRenderer:
@@ -46645,7 +46637,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1259769002
 SpriteRenderer:
@@ -46762,7 +46754,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1263742268
 SpriteRenderer:
@@ -46879,7 +46871,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1265957505
 SpriteRenderer:
@@ -46996,7 +46988,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1267107322
 SpriteRenderer:
@@ -47113,7 +47105,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1267711440
 SpriteRenderer:
@@ -47230,7 +47222,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1270463487
 SpriteRenderer:
@@ -47347,7 +47339,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1273713814
 SpriteRenderer:
@@ -47464,7 +47456,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1274901356
 SpriteRenderer:
@@ -47581,7 +47573,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1282862139
 SpriteRenderer:
@@ -47698,7 +47690,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1285100297
 SpriteRenderer:
@@ -47815,7 +47807,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1287392301
 SpriteRenderer:
@@ -47932,7 +47924,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1291784722
 SpriteRenderer:
@@ -48049,7 +48041,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1293132382
 SpriteRenderer:
@@ -48166,7 +48158,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1298182842
 SpriteRenderer:
@@ -48283,7 +48275,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1304898145
 SpriteRenderer:
@@ -48400,7 +48392,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1306327153
 SpriteRenderer:
@@ -48517,7 +48509,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1309347429
 SpriteRenderer:
@@ -48634,7 +48626,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1311464258
 SpriteRenderer:
@@ -48751,7 +48743,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1311884126
 SpriteRenderer:
@@ -48868,7 +48860,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1312478003
 SpriteRenderer:
@@ -48985,7 +48977,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1316666088
 SpriteRenderer:
@@ -49102,7 +49094,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1322191230
 SpriteRenderer:
@@ -49219,7 +49211,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1331300589
 SpriteRenderer:
@@ -49336,7 +49328,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1334457465
 SpriteRenderer:
@@ -49453,7 +49445,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1340160532
 SpriteRenderer:
@@ -49570,7 +49562,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1342162126
 SpriteRenderer:
@@ -49687,7 +49679,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1343830937
 SpriteRenderer:
@@ -49804,7 +49796,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1343975387
 SpriteRenderer:
@@ -49921,7 +49913,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1344355620
 SpriteRenderer:
@@ -50038,7 +50030,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1347085751
 SpriteRenderer:
@@ -50155,7 +50147,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1365888233
 SpriteRenderer:
@@ -50272,7 +50264,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1374246370
 SpriteRenderer:
@@ -50389,7 +50381,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1376866404
 SpriteRenderer:
@@ -50506,7 +50498,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1381494234
 SpriteRenderer:
@@ -50623,7 +50615,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1407777180
 SpriteRenderer:
@@ -50740,7 +50732,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1414082362
 SpriteRenderer:
@@ -50857,7 +50849,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1427557063
 SpriteRenderer:
@@ -50974,7 +50966,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1439730749
 SpriteRenderer:
@@ -51091,7 +51083,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1444807467
 SpriteRenderer:
@@ -51208,7 +51200,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1454346518
 SpriteRenderer:
@@ -51325,7 +51317,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1455656957
 SpriteRenderer:
@@ -51442,7 +51434,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1456568608
 SpriteRenderer:
@@ -51559,7 +51551,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1456798280
 SpriteRenderer:
@@ -51676,7 +51668,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1457249030
 SpriteRenderer:
@@ -51793,7 +51785,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1467152242
 SpriteRenderer:
@@ -51910,7 +51902,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1472711794
 SpriteRenderer:
@@ -52027,7 +52019,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1474172372
 SpriteRenderer:
@@ -52144,7 +52136,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1477700424
 SpriteRenderer:
@@ -52261,7 +52253,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1478079280
 SpriteRenderer:
@@ -52378,7 +52370,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1478845582
 SpriteRenderer:
@@ -52495,7 +52487,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1478956326
 SpriteRenderer:
@@ -52612,7 +52604,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1479557460
 SpriteRenderer:
@@ -52729,7 +52721,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1483174134
 SpriteRenderer:
@@ -52846,7 +52838,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1484575145
 SpriteRenderer:
@@ -52963,7 +52955,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1494000326
 SpriteRenderer:
@@ -53080,7 +53072,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1495015247
 SpriteRenderer:
@@ -53197,7 +53189,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1495257974
 SpriteRenderer:
@@ -53314,7 +53306,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1499328556
 SpriteRenderer:
@@ -53431,7 +53423,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1505052823
 SpriteRenderer:
@@ -53548,7 +53540,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1507999050
 SpriteRenderer:
@@ -53665,7 +53657,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1516823056
 SpriteRenderer:
@@ -53782,7 +53774,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1519633856
 SpriteRenderer:
@@ -53899,7 +53891,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1519882894
 SpriteRenderer:
@@ -54016,7 +54008,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1520074711
 SpriteRenderer:
@@ -54133,7 +54125,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1520358334
 SpriteRenderer:
@@ -54250,7 +54242,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1527744162
 SpriteRenderer:
@@ -54367,7 +54359,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1533092823
 SpriteRenderer:
@@ -54484,7 +54476,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1533552025
 SpriteRenderer:
@@ -54601,7 +54593,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1534158014
 SpriteRenderer:
@@ -54718,7 +54710,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1540543937
 SpriteRenderer:
@@ -54835,7 +54827,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1542629732
 SpriteRenderer:
@@ -54952,7 +54944,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1549057619
 SpriteRenderer:
@@ -55069,7 +55061,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1550592340
 SpriteRenderer:
@@ -55186,7 +55178,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1558150718
 SpriteRenderer:
@@ -55303,7 +55295,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1560222025
 SpriteRenderer:
@@ -55420,7 +55412,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1560920886
 SpriteRenderer:
@@ -55537,7 +55529,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1561381530
 SpriteRenderer:
@@ -55654,7 +55646,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1561529572
 SpriteRenderer:
@@ -55771,7 +55763,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1567516194
 SpriteRenderer:
@@ -55888,7 +55880,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1569136099
 SpriteRenderer:
@@ -56005,7 +55997,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1579084190
 SpriteRenderer:
@@ -56122,7 +56114,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1579544037
 SpriteRenderer:
@@ -56239,7 +56231,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1583072188
 SpriteRenderer:
@@ -56356,7 +56348,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1583996738
 SpriteRenderer:
@@ -56473,7 +56465,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1584467395
 SpriteRenderer:
@@ -56590,7 +56582,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1585720771
 SpriteRenderer:
@@ -56707,7 +56699,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1587355242
 SpriteRenderer:
@@ -56824,7 +56816,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1589674537
 SpriteRenderer:
@@ -56941,7 +56933,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1589977294
 SpriteRenderer:
@@ -57058,7 +57050,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1591651075
 SpriteRenderer:
@@ -57175,7 +57167,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1591659034
 SpriteRenderer:
@@ -57292,7 +57284,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1592375491
 SpriteRenderer:
@@ -57409,7 +57401,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1592465637
 SpriteRenderer:
@@ -57526,7 +57518,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1598407256
 SpriteRenderer:
@@ -57643,7 +57635,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1598465055
 SpriteRenderer:
@@ -57760,7 +57752,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1603362299
 SpriteRenderer:
@@ -57877,7 +57869,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1605999514
 SpriteRenderer:
@@ -57994,7 +57986,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1609021404
 SpriteRenderer:
@@ -58111,7 +58103,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1618649238
 SpriteRenderer:
@@ -58228,7 +58220,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1622851389
 SpriteRenderer:
@@ -58345,7 +58337,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1623718744
 SpriteRenderer:
@@ -58462,7 +58454,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1630017059
 SpriteRenderer:
@@ -58579,7 +58571,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1631068763
 SpriteRenderer:
@@ -58696,7 +58688,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1635205557
 SpriteRenderer:
@@ -58813,7 +58805,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1635279253
 SpriteRenderer:
@@ -58930,7 +58922,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1640680294
 SpriteRenderer:
@@ -59047,7 +59039,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1642609990
 SpriteRenderer:
@@ -59164,7 +59156,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1643907214
 SpriteRenderer:
@@ -59281,7 +59273,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1645428537
 SpriteRenderer:
@@ -59398,7 +59390,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1648345754
 SpriteRenderer:
@@ -59515,7 +59507,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1658216055
 SpriteRenderer:
@@ -59632,7 +59624,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1658717520
 SpriteRenderer:
@@ -59749,7 +59741,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1664427497
 SpriteRenderer:
@@ -59866,7 +59858,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1664617597
 SpriteRenderer:
@@ -59983,7 +59975,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1670851059
 SpriteRenderer:
@@ -60100,7 +60092,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1679989739
 SpriteRenderer:
@@ -60217,7 +60209,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1680528160
 SpriteRenderer:
@@ -60334,7 +60326,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1686098300
 SpriteRenderer:
@@ -60451,7 +60443,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1690219669
 SpriteRenderer:
@@ -60568,7 +60560,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1690612245
 SpriteRenderer:
@@ -60685,7 +60677,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1692395673
 SpriteRenderer:
@@ -60802,7 +60794,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1696172769
 SpriteRenderer:
@@ -60919,7 +60911,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1707022413
 SpriteRenderer:
@@ -61036,7 +61028,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1711230828
 SpriteRenderer:
@@ -61153,7 +61145,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1715688521
 SpriteRenderer:
@@ -61270,7 +61262,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1719187245
 SpriteRenderer:
@@ -61387,7 +61379,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1721511147
 SpriteRenderer:
@@ -61504,7 +61496,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1724388355
 SpriteRenderer:
@@ -61621,7 +61613,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1731518774
 SpriteRenderer:
@@ -61738,7 +61730,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1732151842
 SpriteRenderer:
@@ -61855,7 +61847,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1734425809
 SpriteRenderer:
@@ -61972,7 +61964,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1737546015
 SpriteRenderer:
@@ -62089,7 +62081,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1740941269
 SpriteRenderer:
@@ -62206,7 +62198,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1741361773
 SpriteRenderer:
@@ -62323,7 +62315,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1742448651
 SpriteRenderer:
@@ -62440,7 +62432,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1742570147
 SpriteRenderer:
@@ -62557,7 +62549,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1746211908
 SpriteRenderer:
@@ -62674,7 +62666,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1747658213
 SpriteRenderer:
@@ -62791,7 +62783,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1749998086
 SpriteRenderer:
@@ -62908,7 +62900,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1750291708
 SpriteRenderer:
@@ -63025,7 +63017,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1751357656
 SpriteRenderer:
@@ -63142,7 +63134,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1752474157
 SpriteRenderer:
@@ -63259,7 +63251,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1757169165
 SpriteRenderer:
@@ -63376,7 +63368,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1758674874
 SpriteRenderer:
@@ -63493,7 +63485,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1761053962
 SpriteRenderer:
@@ -63610,7 +63602,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1765041574
 SpriteRenderer:
@@ -63727,7 +63719,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1768083432
 SpriteRenderer:
@@ -63844,7 +63836,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1770596389
 SpriteRenderer:
@@ -63961,7 +63953,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1771533546
 SpriteRenderer:
@@ -64078,7 +64070,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1782859691
 SpriteRenderer:
@@ -64195,7 +64187,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1784613898
 SpriteRenderer:
@@ -64312,7 +64304,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1791061186
 SpriteRenderer:
@@ -64429,7 +64421,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1791244517
 SpriteRenderer:
@@ -64546,7 +64538,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1794674798
 SpriteRenderer:
@@ -64663,7 +64655,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1797116146
 SpriteRenderer:
@@ -64780,7 +64772,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1797423708
 SpriteRenderer:
@@ -64897,7 +64889,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1798774533
 SpriteRenderer:
@@ -65014,7 +65006,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1806530903
 SpriteRenderer:
@@ -65131,7 +65123,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1807935020
 SpriteRenderer:
@@ -65248,7 +65240,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1811253178
 SpriteRenderer:
@@ -65365,7 +65357,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1816294487
 SpriteRenderer:
@@ -65482,7 +65474,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1820181462
 SpriteRenderer:
@@ -65599,7 +65591,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1822645795
 SpriteRenderer:
@@ -65716,7 +65708,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1823277357
 SpriteRenderer:
@@ -65833,7 +65825,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1833073012
 SpriteRenderer:
@@ -65950,7 +65942,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1836399294
 SpriteRenderer:
@@ -66067,7 +66059,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1847481765
 SpriteRenderer:
@@ -66184,7 +66176,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1848011693
 SpriteRenderer:
@@ -66412,7 +66404,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1856406698
 SpriteRenderer:
@@ -66640,7 +66632,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1863389148
 SpriteRenderer:
@@ -66757,7 +66749,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1864289159
 SpriteRenderer:
@@ -66874,7 +66866,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1868560192
 SpriteRenderer:
@@ -66991,7 +66983,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1880515340
 SpriteRenderer:
@@ -67108,7 +67100,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1881795934
 SpriteRenderer:
@@ -67225,7 +67217,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1889223246
 SpriteRenderer:
@@ -67342,7 +67334,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1889650317
 SpriteRenderer:
@@ -67459,7 +67451,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1890808493
 SpriteRenderer:
@@ -67576,7 +67568,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1891495376
 SpriteRenderer:
@@ -67693,7 +67685,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1898733535
 SpriteRenderer:
@@ -67810,7 +67802,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1900036809
 SpriteRenderer:
@@ -67927,7 +67919,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1901430868
 SpriteRenderer:
@@ -68044,7 +68036,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1901811347
 SpriteRenderer:
@@ -68161,7 +68153,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1903874435
 SpriteRenderer:
@@ -68278,7 +68270,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1906231391
 SpriteRenderer:
@@ -68395,7 +68387,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1909532014
 SpriteRenderer:
@@ -68623,7 +68615,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1911281414
 SpriteRenderer:
@@ -68740,7 +68732,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1916998279
 SpriteRenderer:
@@ -68857,7 +68849,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1921037265
 SpriteRenderer:
@@ -68974,7 +68966,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1923152794
 SpriteRenderer:
@@ -69091,7 +69083,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1923450583
 SpriteRenderer:
@@ -69208,7 +69200,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1927751240
 SpriteRenderer:
@@ -69325,7 +69317,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1930948638
 SpriteRenderer:
@@ -69442,7 +69434,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1939941967
 SpriteRenderer:
@@ -69559,7 +69551,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1940538496
 SpriteRenderer:
@@ -69676,7 +69668,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1946985284
 SpriteRenderer:
@@ -69793,7 +69785,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1956358426
 SpriteRenderer:
@@ -69910,7 +69902,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1966609552
 SpriteRenderer:
@@ -70027,7 +70019,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1970892852
 SpriteRenderer:
@@ -70144,7 +70136,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1971330606
 SpriteRenderer:
@@ -70261,7 +70253,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1973736621
 SpriteRenderer:
@@ -70378,7 +70370,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1974294089
 SpriteRenderer:
@@ -70495,7 +70487,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1981790035
 SpriteRenderer:
@@ -70612,7 +70604,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1981927178
 SpriteRenderer:
@@ -70729,7 +70721,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1984326666
 SpriteRenderer:
@@ -70846,7 +70838,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1986661560
 SpriteRenderer:
@@ -70963,7 +70955,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1988738852
 SpriteRenderer:
@@ -71080,7 +71072,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1993094411
 SpriteRenderer:
@@ -71197,7 +71189,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1993200997
 SpriteRenderer:
@@ -71314,7 +71306,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1996376410
 SpriteRenderer:
@@ -71431,7 +71423,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1996590024
 SpriteRenderer:
@@ -71548,7 +71540,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1998747546
 SpriteRenderer:
@@ -71665,7 +71657,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &1999595712
 SpriteRenderer:
@@ -71782,7 +71774,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2001258881
 SpriteRenderer:
@@ -71899,7 +71891,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2011682741
 SpriteRenderer:
@@ -72016,7 +72008,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2014572934
 SpriteRenderer:
@@ -72133,7 +72125,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2021082850
 SpriteRenderer:
@@ -72250,7 +72242,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2028375987
 SpriteRenderer:
@@ -72367,7 +72359,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2029646945
 SpriteRenderer:
@@ -72484,7 +72476,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2032714255
 SpriteRenderer:
@@ -72601,7 +72593,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2034458609
 SpriteRenderer:
@@ -72718,7 +72710,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2038830500
 SpriteRenderer:
@@ -72835,7 +72827,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2042610342
 SpriteRenderer:
@@ -72952,7 +72944,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2051344872
 SpriteRenderer:
@@ -73069,7 +73061,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2054536560
 SpriteRenderer:
@@ -73186,7 +73178,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2057907034
 SpriteRenderer:
@@ -73303,7 +73295,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2062068482
 SpriteRenderer:
@@ -73420,7 +73412,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2062230855
 SpriteRenderer:
@@ -73537,7 +73529,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2064077692
 SpriteRenderer:
@@ -73654,7 +73646,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2071053033
 SpriteRenderer:
@@ -73771,7 +73763,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2073647021
 SpriteRenderer:
@@ -73888,7 +73880,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2084659186
 SpriteRenderer:
@@ -74005,7 +73997,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2087636391
 SpriteRenderer:
@@ -74122,7 +74114,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2089741700
 SpriteRenderer:
@@ -74239,7 +74231,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2089772363
 SpriteRenderer:
@@ -74356,7 +74348,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2090947877
 SpriteRenderer:
@@ -74473,7 +74465,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2108482487
 SpriteRenderer:
@@ -74590,7 +74582,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2110465659
 SpriteRenderer:
@@ -74707,7 +74699,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2112147687
 SpriteRenderer:
@@ -74824,7 +74816,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2112838936
 SpriteRenderer:
@@ -74941,7 +74933,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2116465175
 SpriteRenderer:
@@ -75058,7 +75050,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2119889055
 SpriteRenderer:
@@ -75175,7 +75167,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2121505630
 SpriteRenderer:
@@ -75292,7 +75284,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2121654002
 SpriteRenderer:
@@ -75409,7 +75401,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2121940537
 SpriteRenderer:
@@ -75526,7 +75518,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2122596147
 SpriteRenderer:
@@ -75643,7 +75635,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2136873642
 SpriteRenderer:
@@ -75760,7 +75752,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2137073070
 SpriteRenderer:
@@ -75877,7 +75869,7 @@ MonoBehaviour:
   player: {fileID: 0}
   playerRadius: 1
   frames: 10
-  accur: 100
+  accuracy: 100
   targetPosition: {x: 0, y: 0}
 --- !u!212 &2142053657
 SpriteRenderer:

@@ -152,7 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8668b01ab0982ee4eae79bf23701b04f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p1Speed: 1
+  p1Speed: 500
+  smoothSpeed: 0.2
 --- !u!111 &846440363
 Animation:
   m_ObjectHideFlags: 0
@@ -228,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxBulletAmount: 100
 --- !u!114 &846440364
 MonoBehaviour:
   m_ObjectHideFlags: 0

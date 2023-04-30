@@ -7,6 +7,7 @@ using UnityEngine;
 public class PlayerHit : MonoBehaviour
 {
     private Player1Health _player1Health;
+    [SerializeField] private int healthToReduce = 5; 
     
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,6 @@ public class PlayerHit : MonoBehaviour
     }
     public void OnBulletHit(BulletContainer bCon, BulletCollider bCol)
     {
-        _player1Health.ReduceHealth(1);
+        _player1Health.ReduceHealth(healthToReduce);
     }
 }
