@@ -1,6 +1,8 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Aim : MonoBehaviour
 {
@@ -8,9 +10,14 @@ public class Aim : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private float playerRadius;
     [Tooltip("frames skiped while predicting position")]
-    [SerializeField] private int frames = 10;
-    [SerializeField] public Vector2 targetPosition;
+    [Range(1f, 20f)]
+    [FormerlySerializedAs("_frames")] [SerializeField] private int frames = 10;
+    [Range(1f, 100f)]
+    [FormerlySerializedAs("_accuracy")][SerializeField] private float accuracy = 100f;
 
+    [HideInInspector] public Vector2 targetPosition;
+
+    //Private varibles
     Rigidbody2D playerRb;
     List<Vector2> predictedPlayerPos = new List<Vector2>();
     List<Vector2> predictedBulletPos = new List<Vector2>();
@@ -39,13 +46,13 @@ public class Aim : MonoBehaviour
         predictedBulletPos.Clear();
         for(int i = 1; i < 20; i++)
         {
-            //predict targets position
+            //predict target's position
             targetPos += playerRb.velocity * Time.fixedDeltaTime * frames;
             predictedPlayerPos.Add(targetPos);
-
+            //predict bullet's position
             Vector2 shootDir = targetPos - new Vector2(transform.position.x, transform.position.y);
             bulletPos += shootDir.normalized * shoot.bulletSpeed * Time.fixedDeltaTime * frames;
-            predictedBulletPos.Add(bulletPos);    
+            predictedBulletPos.Add(bulletPos);
         }
         bool finished = false;
         foreach (var target in predictedPlayerPos)
@@ -57,7 +64,9 @@ public class Aim : MonoBehaviour
                 if (Vector2.Distance(target, position) <= playerRadius)
                 {
                     //Shoot
-                    targetPosition = target;
+                    if (accuracy != 100) targetPosition = CheckAccuracy(target);
+                    else targetPosition = target;
+
                     finished = true;
                     break;
                 }
@@ -66,10 +75,25 @@ public class Aim : MonoBehaviour
         }
     }
 
+    private Vector2 CheckAccuracy(Vector2 target)
+    {
+        float randomness = 100 - accuracy;
+        Vector2 targetDir = target - new Vector2(player.position.x, player.position.y);
+        randomness = Random.Range(-randomness, randomness);
+        Vector2 targetPos = (targetDir.normalized * randomness) + target;
+        return targetPos;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.gray;
         Gizmos.DrawSphere(targetPosition, 1f);
-
+        /*
+        foreach (var position in predictedBulletPos)
+        {
+            Gizmos.color = Color.black;
+            Gizmos.DrawSphere(position, 1f);
+        }
+        */
     }
 }
