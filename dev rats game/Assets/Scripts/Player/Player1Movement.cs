@@ -6,35 +6,35 @@ using UnityEngine.Serialization;
 
 public class Player1Movement : MonoBehaviour
 {
-    private Rigidbody2D _rigidbody2D;
+    [FormerlySerializedAs("_p1Speed")] [SerializeField] private float p1Speed = 5f;
+    [Tooltip("Amount of time takes input to transition")]
+    [Range(0f, 2f)]
+    [FormerlySerializedAs("_smoothSpeed")] [SerializeField] private float smoothSpeed = 0.5f;
 
-    private Vector2 _p1Movement;
+    Rigidbody2D _rigidbody2D;
+    Vector2 targetInput;
+    Vector2 currentInput;
+    Vector2 smoothVelocity;
 
-    [FormerlySerializedAs("_p1Speed")] [SerializeField] private float p1Speed = 5;
-    // Start is called before the first frame update
-    void Start()
-    {
-        _rigidbody2D = GetComponent<Rigidbody2D>();
-    }
+    void Start() => _rigidbody2D = GetComponent<Rigidbody2D>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        GetMovementAxis();
-    }
-    private void FixedUpdate()
-    {
-        MovePlayer();
-    }
+    void Update() => SmoothInput();
+
+    void FixedUpdate() => MovePlayer();
+
     private void GetMovementAxis()
     {
-        _p1Movement.x = Input.GetAxisRaw("Horizontal");
-        _p1Movement.y = Input.GetAxisRaw("Vertical");
+        targetInput.x = Input.GetAxisRaw("Horizontal");
+        targetInput.y = Input.GetAxisRaw("Vertical");
     }
 
-    private void MovePlayer()
+    private void SmoothInput()
     {
-        Vector2 newVelocity = _rigidbody2D.velocity + _p1Movement * p1Speed;
-        _rigidbody2D.velocity = newVelocity;
+        GetMovementAxis();
+        currentInput = Vector2.SmoothDamp(currentInput, targetInput,
+            ref smoothVelocity, smoothSpeed);
     }
+
+    private void MovePlayer() => _rigidbody2D.velocity = currentInput * p1Speed * Time.deltaTime;
+
 }
