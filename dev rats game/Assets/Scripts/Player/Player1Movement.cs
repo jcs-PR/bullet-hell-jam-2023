@@ -6,35 +6,111 @@ using UnityEngine.Serialization;
 
 public class Player1Movement : MonoBehaviour
 {
-    [FormerlySerializedAs("_p1Speed")] [SerializeField] private float p1Speed = 5f;
-    [Tooltip("Amount of time takes input to transition")]
-    [Range(0f, 2f)]
-    [FormerlySerializedAs("_smoothSpeed")] [SerializeField] private float smoothSpeed = 0.5f;
+    [FormerlySerializedAs("_p1Speed")][SerializeField] private float p1Speed = 5f;
 
+    [Range(0f, 2f)][Tooltip("Amount of time takes input to transition")]
+    [FormerlySerializedAs("_smoothSpeed")]
+    [SerializeField] private float inputSmoothing = 0.2f;
+    [Range(0f, 2f)][FormerlySerializedAs("_dashSmoothing")]
+    [SerializeField] private float dashSmoothing = 0.1f;
+    [FormerlySerializedAs("_dashLength")]
+    [SerializeField] private float dashLength = 5f;
+    [Tooltip("Time it takes do dash again")][FormerlySerializedAs("_dashCharge")]
+    [Range(0f, 5f)][SerializeField] private float dashCharge = 1f;
+    [SerializeField] private LayerMask dashLayer;
+
+    //Private variables
     Rigidbody2D _rigidbody2D;
     Vector2 targetInput;
     Vector2 currentInput;
-    Vector2 smoothVelocity;
+    Vector3 inputVelocity;
+    Vector3 dashVelocity;
+    Vector2 playerSize;
+    Vector2 dashTarget;
+    bool canDash;
+    float curDashCharge;
 
-    void Start() => _rigidbody2D = GetComponent<Rigidbody2D>();
-
-    void Update() => SmoothInput();
-
-    void FixedUpdate() => MovePlayer();
-
-    private void GetMovementAxis()
+    void Start()
     {
-        targetInput.x = Input.GetAxisRaw("Horizontal");
-        targetInput.y = Input.GetAxisRaw("Vertical");
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        playerSize = this.GetComponent<BoxCollider2D>().bounds.extents;
+        curDashCharge = dashCharge;
+        canDash = false;
     }
+
+    void Update()
+    {
+        CheckForDash();
+        SmoothInput();
+        if(targetInput.magnitude != 0)
+            RotateWithMovement();
+    }
+    void FixedUpdate()
+    {
+        if (canDash)
+            Dash();
+        else
+            MovePlayer();
+    }
+
+    private void GetMovementAxis() => targetInput = new Vector2(Input.GetAxisRaw("Horizontal"),
+        Input.GetAxisRaw("Vertical"));
+
 
     private void SmoothInput()
     {
         GetMovementAxis();
-        currentInput = Vector2.SmoothDamp(currentInput, targetInput,
-            ref smoothVelocity, smoothSpeed);
+        currentInput = Vector3.SmoothDamp(currentInput, targetInput,
+            ref inputVelocity, inputSmoothing);
     }
 
     private void MovePlayer() => _rigidbody2D.velocity = currentInput * p1Speed * Time.deltaTime;
 
+    private void RotateWithMovement()
+    {
+        Vector3 targetPos = _rigidbody2D.position + (currentInput * 5f);
+        transform.up = (targetPos - transform.position);
+    }
+
+    private void Dash()
+    {
+        _rigidbody2D.MovePosition(Vector3.SmoothDamp(_rigidbody2D.position, dashTarget,
+            ref dashVelocity, dashSmoothing));
+        //If player has reached dash position stop
+        if (Vector2.Distance(transform.position, dashTarget) <= 0.1f)
+            canDash = false;
+    }
+
+    private void CheckForDash()
+    {
+        if (Input.GetKey(KeyCode.Space) && curDashCharge <= 0f && !canDash)
+        {
+            Vector2 dashDir = transform.up;
+            RaycastHit2D hit = Physics2D.BoxCast(transform.position,
+                playerSize, 0, dashDir, dashLength, dashLayer);
+
+            if (hit.collider != null)
+            {
+                //Dash at the position of Impact (Doesn't passes through objects)
+                dashTarget = hit.point + (playerSize.magnitude * -dashDir);
+            }
+
+            else
+                dashTarget = _rigidbody2D.position + (dashDir * dashLength);
+
+            canDash = true;
+            curDashCharge = dashCharge;
+        }
+        else if (curDashCharge > 0f)
+            curDashCharge -= Time.deltaTime;
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (canDash)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(dashTarget, playerSize.magnitude);
+        }
+    }
 }
