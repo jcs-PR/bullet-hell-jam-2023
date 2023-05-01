@@ -33,8 +33,8 @@ public class Aim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(targetPosition, transform.position, Color.black);
-        Debug.DrawLine(player.position, playerRb.velocity.normalized * float.MaxValue, Color.yellow);
+        //Debug.DrawLine(targetPosition, transform.position, Color.black);
+        //Debug.DrawLine(player.position, playerRb.velocity.normalized * float.MaxValue, Color.yellow);
         PredictTargetPosition();
     }
 
