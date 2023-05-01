@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class HUDScript : MonoBehaviour
 {
@@ -11,18 +12,54 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private string firstLevelName = "lvl01";
 
     [SerializeField] private TMP_Text ammoTxt;
+    [SerializeField] private TMP_Text healthAmountTxt;
 
     private Player1Shooting _player1Shooting;
+    private Player1Health _player1Health;
+
+    [SerializeField] private Slider healthSlider;
     // Start is called before the first frame update
     void Start()
     {
         _player1Shooting = FindObjectOfType<Player1Shooting>();
+        _player1Health = FindObjectOfType<Player1Health>();
+        if (_player1Health != null)
+        {
+            healthSlider.maxValue = _player1Health.GetPlayerStartingHealth();
+        }
+        UpdateHUDValues();
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateAmmoTxt();
+        UpdateHUDValues();
+    }
+
+    void UpdateHUDValues()
+    {
+        if (_player1Shooting != null)
+        {
+            UpdateAmmoTxt();
+
+        }
+
+        if (_player1Health != null)
+        {
+            UpdateHealthSlider();
+            UpdateHealthAmountTxt();
+
+        }
+    }
+
+    void UpdateHealthSlider()
+    {
+        healthSlider.value = _player1Health.GetPlayerCurrentHealth();
+    }
+
+    void UpdateHealthAmountTxt()
+    {
+        healthAmountTxt.text = _player1Health.GetPlayerCurrentHealth().ToString();
     }
 
     private void UpdateAmmoTxt()

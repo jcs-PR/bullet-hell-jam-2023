@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 272503980291716993}
   - component: {fileID: 272503980291716992}
   - component: {fileID: 272503980291716995}
+  - component: {fileID: 3254230687826914534}
   m_Layer: 10
   m_Name: Enemy_Anger
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 257e4c4414bac7445892b41f1f3848c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 50
+  enemyHealth: 25
   resetTime: 3
 --- !u!50 &272503980291716994
 Rigidbody2D:
@@ -228,3 +229,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthToReduce: 5
+--- !u!61 &3254230687826914534
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272503980291717003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.018040508, y: 0.046862096}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8, y: 0.8}
+    newSize: {x: 0.8, y: 0.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.47527033, y: 0.44649214}
+  m_EdgeRadius: 0

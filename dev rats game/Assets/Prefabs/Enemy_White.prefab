@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6352378351172105611}
   - component: {fileID: 6352378351172105620}
-  - component: {fileID: 6352378351172105622}
   - component: {fileID: 6352378351172105610}
   - component: {fileID: 6352378351172105609}
   - component: {fileID: 1229940179}
@@ -19,7 +18,7 @@ GameObject:
   - component: {fileID: 1229940188}
   m_Layer: 10
   m_Name: Enemy_White
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 49fa65e55bf4d1b4396c557e7d862c49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7f657457c66512f40b954ac4970f725d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -91,18 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6352378351172105622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6352378351172105623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25032447297c4994fadb1d091ebcdf9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6352378351172105610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -214,7 +201,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   shape: 0
-  radius: 0.5
+  radius: 0.94
   size: {x: 1, y: 1, z: 1}
   destroyBullet: 1
   center: {x: 0, y: 0, z: 0}

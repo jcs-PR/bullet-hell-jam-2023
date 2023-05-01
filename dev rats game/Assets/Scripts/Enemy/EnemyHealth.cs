@@ -9,6 +9,12 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int enemyHealth = 5;
     [SerializeField] private int resetTime = 3;
 
+    private GameManager _gameManager;
+
+    private void Start()
+    {
+        _gameManager = FindObjectOfType<GameManager>();
+    }
 
     private void Update()
     {

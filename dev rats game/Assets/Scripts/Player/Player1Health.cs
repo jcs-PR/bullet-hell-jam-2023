@@ -38,7 +38,7 @@ public class Player1Health : MonoBehaviour
         return _playerStartingHealth;
     }
 
-    public int GetEnemyHealth()
+    public int GetPlayerCurrentHealth()
     {
         return playerHealth;
     }
