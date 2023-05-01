@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,11 @@ public class MusicManager : MonoBehaviour
         ChooseMusicTrack();
     }
 
+    private void Update()
+    {
+        MuteAudio();
+    }
+
     private void ChooseMusicTrack()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -28,5 +34,21 @@ public class MusicManager : MonoBehaviour
 
 
         _audioSource.Play();
+    }
+
+    void MuteAudio()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (_audioSource.mute == false)
+            {
+                _audioSource.mute = true;
+            }
+            
+            else if (_audioSource.mute = true)
+            {
+                _audioSource.mute = false;
+            }
+        }
     }
 }

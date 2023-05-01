@@ -20,6 +20,8 @@ public class HUDScript : MonoBehaviour
 
     [SerializeField] private Slider healthSlider;
 
+    [SerializeField] private GameObject pausePanel;
+
     private void Awake()
     {
         
@@ -28,6 +30,7 @@ public class HUDScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pausePanel.SetActive(false);
         _player1Shooting = FindObjectOfType<Player1Shooting>();
         _player1Health = FindObjectOfType<Player1Health>();
         UpdateHUDValues();
@@ -95,6 +98,11 @@ public class HUDScript : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void SetPausePanel(bool condition)
+    {
+        pausePanel.SetActive(condition);
     }
 }
 

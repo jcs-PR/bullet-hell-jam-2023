@@ -14,6 +14,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string gameOverLvlName = "gameover";
 
     private int amountOfEnemies;
+
+    public bool isPaused = false;
+
+    private HUDScript _hudScript;
     
     // Start is called before the first frame update
     void Start()
@@ -21,12 +25,19 @@ public class GameManager : MonoBehaviour
         // GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         // amountOfEnemies = enemies.Length;
 
+        _hudScript = FindObjectOfType<HUDScript>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         // CheckAmountOfEnemies();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseGame();
+        }
     }
 
     public void DecreaseAmountOfEnemies()
@@ -54,6 +65,28 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(resetTime);
         int lvl01Index = SceneManager.GetSceneByName(lvl01Name).buildIndex;
         SceneManager.LoadScene(lvl01Name);
+    }
+
+    public void PauseGame()
+    {
+        if (!isPaused)
+        {
+            Time.timeScale = 0;
+            _hudScript.SetPausePanel(true);
+            isPaused = true;
+
+        }
+        else if (isPaused)
+        {
+            Time.timeScale = 1;
+            _hudScript.SetPausePanel(false);
+            isPaused = false;
+        }
+    }
+
+    public bool GetIsPaused()
+    {
+        return isPaused;
     }
 }
 

@@ -12,10 +12,14 @@ public class Player1Shooting : MonoBehaviour
     [SerializeField] private int maxBulletAmount = 500;
 
     [SerializeField] private bool infinityEnabled = false;
+
+    private GameManager _gameManager;
     
     // Start is called before the first frame update
     void Start()
     {
+        _gameManager = FindObjectOfType<GameManager>();
+        
         _bm = GetComponent<BulletManager>();
 
         _bulletAmount = maxBulletAmount;
@@ -26,7 +30,10 @@ public class Player1Shooting : MonoBehaviour
     {
         if (infinityEnabled || !infinityEnabled && _bulletAmount > 0)
         {
-            ShootNewBullet();
+            if (!_gameManager.GetIsPaused())
+            {
+                ShootNewBullet();
+            }
         }
     }
 
