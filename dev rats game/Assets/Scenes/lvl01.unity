@@ -1193,6 +1193,7 @@ GameObject:
   - component: {fileID: 1064395788}
   - component: {fileID: 1064395787}
   - component: {fileID: 1064395789}
+  - component: {fileID: 1064395790}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -1293,6 +1294,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1064395790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064395786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 384
+  shape: 1
+  radius: 0.17
+  size: {x: 0.1, y: 36, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls: []
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
 --- !u!1 &1186561625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1367,7 @@ GameObject:
   - component: {fileID: 1234653835}
   - component: {fileID: 1234653834}
   - component: {fileID: 1234653836}
+  - component: {fileID: 1234653837}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -1437,6 +1468,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1234653837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234653833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 384
+  shape: 1
+  radius: 0.17
+  size: {x: 1.1, y: 1, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls: []
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
 --- !u!4 &1283789592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 272503980291716997, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
@@ -1576,6 +1636,7 @@ GameObject:
   - component: {fileID: 1663950653}
   - component: {fileID: 1663950652}
   - component: {fileID: 1663950654}
+  - component: {fileID: 1663950655}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -1676,6 +1737,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1663950655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663950651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 384
+  shape: 1
+  radius: 0.17
+  size: {x: 1.1, y: 1, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls: []
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
 --- !u!1 &1679018671
 GameObject:
   m_ObjectHideFlags: 3
@@ -2092,6 +2182,7 @@ GameObject:
   - component: {fileID: 2014146569}
   - component: {fileID: 2014146568}
   - component: {fileID: 2014146570}
+  - component: {fileID: 2014146571}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -2192,6 +2283,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2014146571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014146567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 384
+  shape: 1
+  radius: 0.17
+  size: {x: 0.1, y: 36, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0.1, y: 1, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls: []
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
 --- !u!4 &2085176461 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 272503980291716997, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
@@ -2366,6 +2486,10 @@ PrefabInstance:
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6156794738353308147, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     - target: {fileID: 6352378351172105611, guid: edec3c4a72625c94f8e4b459a4615a9d, type: 3}
       propertyPath: m_RootOrder
       value: 1

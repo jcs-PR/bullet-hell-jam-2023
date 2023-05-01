@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 6352378351172105623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.8638822, y: -5.519275, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 2, y: -2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -254,4 +254,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumTurnSpeed: 360
   player: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-  offset: 0
