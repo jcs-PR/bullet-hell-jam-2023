@@ -1700,3 +1700,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3548.908307 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(24d9797c20ab88045b4372037da18ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(24d9797c20ab88045b4372037da18ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b35708c827088e90ddf5a7758506563') in 0.117836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.188284 seconds.
+  path: Assets/Audio/Music
+  artifactKey: Guid(4f6355520ea8d414d93a2aa1e72e36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music using Guid(4f6355520ea8d414d93a2aa1e72e36a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2eae1700dd33419941514839d4a5d5') in 0.102890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370621 seconds.
+  path: Assets/Audio/Music/Mixdown - lvl01.wav
+  artifactKey: Guid(4001a5175cce3ad4cb209e36c91142c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/Mixdown - lvl01.wav using Guid(4001a5175cce3ad4cb209e36c91142c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c5555722f041b2f7d1f4755f217bfe') in 0.202842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.802590 seconds.
+  path: Assets/Audio/Music/LOOP_Galialos.wav
+  artifactKey: Guid(ddaeef149596ae94cbd026438012afff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Music/LOOP_Galialos.wav using Guid(ddaeef149596ae94cbd026438012afff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3475d2c10b5ac90e2918a2a6924062') in 0.018919 seconds 
