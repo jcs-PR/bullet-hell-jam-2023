@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1229940180}
   - component: {fileID: 1229940187}
   - component: {fileID: 1229940188}
+  - component: {fileID: 6156794738353308147}
   m_Layer: 8
   m_Name: Enemy_White
   m_TagString: Enemy
@@ -239,3 +240,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthToReduce: 5
+--- !u!114 &6156794738353308147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352378351172105623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2c801d0a8773243bd67b750e02dfcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maximumTurnSpeed: 360
+  player: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+  offset: 0

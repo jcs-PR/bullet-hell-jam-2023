@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: EnemySpawn
   m_EditorClassIdentifier: 
   fireRate: 1
-  burstCount: 5
+  burstCount: 4
   burstDelay: 0.1
-  spawnDir: 2
+  spawnDir: 0
   directionArc: 0
-  randomise: 1
-  onEdge: 1
+  randomise: 0
+  onEdge: 0
   numSides: 1
   numPerSide: 1
   radius: 0
-  arc: 360
+  arc: 0
   isExpanded: 1

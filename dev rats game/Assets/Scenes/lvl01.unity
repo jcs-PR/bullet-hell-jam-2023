@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &37033094
@@ -256,6 +260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &191526880
@@ -321,6 +329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &276429302
@@ -386,6 +398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!4 &279516952 stripped
@@ -461,6 +477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &463999299
@@ -526,6 +546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1 &474129233
@@ -640,7 +664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
+  m_RequiresDepthTextureOption: 1
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
@@ -650,11 +674,11 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
-  m_Dithering: 0
+  m_Dithering: 1
   m_ClearDepth: 1
   m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
@@ -815,6 +839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1 &619394800
@@ -1074,6 +1102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &886636172
@@ -1139,6 +1171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!4 &1003800566 stripped
@@ -1469,6 +1505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!4 &1386984708 stripped
@@ -1476,6 +1516,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 272503980291716997, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
   m_PrefabInstance: {fileID: 1702813662}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1612053783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1612053785}
+  - component: {fileID: 1612053784}
+  m_Layer: 0
+  m_Name: PostProcessingVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1612053784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612053783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 1
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 36de6057a8843274aa5d095a11c92387, type: 2}
+--- !u!4 &1612053785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612053783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1663950651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,6 +1877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1 &1735869928
@@ -1893,6 +1986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!4 &1882967785 stripped
@@ -1973,6 +2070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!4 &1973526549 stripped
@@ -2155,6 +2256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Anger
       objectReference: {fileID: 0}
+    - target: {fileID: 4503412696523355221, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 846440351}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f62a9f974ab9064ab26f95cf9289ede, type: 3}
 --- !u!1001 &3703841085682807918
@@ -2531,6 +2636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7007785150493944837, guid: 2f3b626faf5abcc468a2f922ea9080fa, type: 3}
+      propertyPath: musicClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ddaeef149596ae94cbd026438012afff, type: 3}
     - target: {fileID: 7075624361165568819, guid: 2f3b626faf5abcc468a2f922ea9080fa, type: 3}
       propertyPath: m_Name
       value: GameManager
