@@ -3313,6 +3313,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420031}
     - target: {fileID: 846440362, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+      propertyPath: infinityEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440362, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
       propertyPath: maxBulletAmount
       value: 500
       objectReference: {fileID: 0}
