@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206657804}
   - component: {fileID: 1206657805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,10 @@ GameObject:
   - component: {fileID: 846440354}
   - component: {fileID: 6450565513757978257}
   - component: {fileID: 5813783576899299711}
-  m_Layer: 0
+  - component: {fileID: 5560184637171931857}
+  - component: {fileID: 1972119445623515600}
+  - component: {fileID: 8192080784013698068}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -253,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b6c8e36811d1243b2f12880b98dc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHealth: 5
+  playerHealth: 100
 --- !u!114 &5813783576899299711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,3 +271,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxBulletAmount: 500
   infinityEnabled: 0
+--- !u!114 &5560184637171931857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703841084916192243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderCamera: {fileID: 0}
+  manualFire: 1
+  bulletSettings: {fileID: 11400000, guid: 55598acd64699b64d97e8f60430ff0ae, type: 2}
+  spawnSettings: {fileID: 11400000, guid: dcb486b716744c64abf33b27e39648f6, type: 2}
+  currentActiveBullets: 0
+  maxActiveBullets: 0
+  seed: 
+  randomiseSeedOnAwake: 1
+  rotateSpeed: 0
+  playingEditorAnimation: 0
+  OnBulletDied:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletSpawned:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWeaponFired:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1972119445623515600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703841084916192243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9add1c9d0cf8e4cb28a0121845c457c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletLayersToBeHitBy:
+    serializedVersion: 2
+    m_Bits: 256
+  shape: 0
+  radius: 0.5
+  size: {x: 1, y: 1, z: 1}
+  destroyBullet: 1
+  center: {x: 0, y: 0, z: 0}
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  pointC: {x: 0, y: 0, z: 0}
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8192080784013698068}
+        m_TargetAssemblyTypeName: PlayerHit, Assembly-CSharp
+        m_MethodName: OnBulletHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  bounce: 0
+  lifetimeLoss: 0
+  bounciness: 0
+--- !u!114 &8192080784013698068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703841084916192243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c03422f7ee8d94db69049502525acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthToReduce: 1

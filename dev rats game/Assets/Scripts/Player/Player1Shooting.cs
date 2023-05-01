@@ -32,7 +32,7 @@ public class Player1Shooting : MonoBehaviour
 
     private void ShootNewBullet()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Mouse0))
         {
             _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ? transform.up : transform.forward);
             _bulletAmount -= 1;

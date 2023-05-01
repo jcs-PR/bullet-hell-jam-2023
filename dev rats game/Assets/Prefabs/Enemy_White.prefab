@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1229940180}
   - component: {fileID: 1229940187}
   - component: {fileID: 1229940188}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Enemy_White
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletLayersToBeHitBy:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 640
   shape: 0
   radius: 0.94
   size: {x: 1, y: 1, z: 1}

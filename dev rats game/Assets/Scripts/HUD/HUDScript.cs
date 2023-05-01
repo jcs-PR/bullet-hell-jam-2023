@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -18,15 +19,17 @@ public class HUDScript : MonoBehaviour
     private Player1Health _player1Health;
 
     [SerializeField] private Slider healthSlider;
+
+    private void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         _player1Shooting = FindObjectOfType<Player1Shooting>();
         _player1Health = FindObjectOfType<Player1Health>();
-        if (_player1Health != null)
-        {
-            healthSlider.maxValue = _player1Health.GetPlayerStartingHealth();
-        }
         UpdateHUDValues();
     }
 

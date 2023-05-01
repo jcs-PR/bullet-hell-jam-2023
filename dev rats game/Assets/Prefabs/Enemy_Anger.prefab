@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 272503980291716992}
   - component: {fileID: 272503980291716995}
   - component: {fileID: 3254230687826914534}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Enemy_Anger
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletLayersToBeHitBy:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 640
   shape: 0
   radius: 0.27
   size: {x: 1, y: 1, z: 1}
