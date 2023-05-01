@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,16 +9,37 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private string gameURL;
 
     [SerializeField] private string firstLevelName = "lvl01";
+
+    [SerializeField] private TMP_Text ammoTxt;
+
+    private Player1Shooting _player1Shooting;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _player1Shooting = FindObjectOfType<Player1Shooting>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        UpdateAmmoTxt();
+    }
+
+    private void UpdateAmmoTxt()
+    {
+        if (_player1Shooting.GetInfinityEnabled())
+        {
+            char infinitySymbol = '\u221e';
+            string newInfinityAmmoTxt = "Ammo \n" + infinitySymbol.ToString();
+            ammoTxt.text = newInfinityAmmoTxt;
+        }
         
+        else if (!_player1Shooting.GetInfinityEnabled())
+        {
+            string newStandardArrowTxt = "Ammo \n" + _player1Shooting.GetBulletAmount().ToString();
+            ammoTxt.text = newStandardArrowTxt;
+        }
+
     }
 
     public void OpenFeedbackForm()
@@ -35,3 +57,9 @@ public class HUDScript : MonoBehaviour
         Application.Quit();
     }
 }
+
+// References.
+// Infinity Symbol Unicode:
+// https://stackoverflow.com/a/10806963
+// Unicode for Unity C#:
+// http://answers.unity.com/answers/170110/view.html

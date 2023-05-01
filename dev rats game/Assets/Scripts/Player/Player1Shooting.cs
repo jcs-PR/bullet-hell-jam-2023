@@ -9,7 +9,9 @@ public class Player1Shooting : MonoBehaviour
     private BulletManager _bm;
 
     private int _bulletAmount;
-    [SerializeField] private int maxBulletAmount = 100; 
+    [SerializeField] private int maxBulletAmount = 500;
+
+    [SerializeField] private bool infinityEnabled = false;
     
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,10 @@ public class Player1Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ShootNewBullet();
+        if (infinityEnabled || !infinityEnabled && _bulletAmount > 0)
+        {
+            ShootNewBullet();
+        }
     }
 
     private void ShootNewBullet()
@@ -32,5 +37,15 @@ public class Player1Shooting : MonoBehaviour
             _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ? transform.up : transform.forward);
             _bulletAmount -= 1;
         }
+    }
+
+    public int GetBulletAmount()
+    {
+        return _bulletAmount;
+    }
+
+    public bool GetInfinityEnabled()
+    {
+        return infinityEnabled;
     }
 }
