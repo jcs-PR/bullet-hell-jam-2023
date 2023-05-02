@@ -21,6 +21,11 @@ public class Player1Health : MonoBehaviour
         {
             PlayerDeath();
         }
+
+        if (playerHealth < 0)
+        {
+            playerHealth = 0;
+        }
     }
 
     void PlayerDeath()
