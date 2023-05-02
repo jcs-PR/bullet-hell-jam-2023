@@ -458,75 +458,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &846440349 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3703841084916192243, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-  m_PrefabInstance: {fileID: 3703841085682807918}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &846440351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
   m_PrefabInstance: {fileID: 3703841085682807918}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &846440356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b6c8e36811d1243b2f12880b98dc36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 5
---- !u!114 &846440357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 519420031}
-  manualFire: 1
-  bulletSettings: {fileID: 11400000, guid: 55598acd64699b64d97e8f60430ff0ae, type: 2}
-  spawnSettings: {fileID: 11400000, guid: dcb486b716744c64abf33b27e39648f6, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 0
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &846440362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 846440349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1679018671
 GameObject:
   m_ObjectHideFlags: 3
@@ -635,6 +571,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
+      propertyPath: manualFire
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366442210, guid: 1c4efc0b67d5ac741898322f62fb6154, type: 3}
       propertyPath: renderCamera
       value: 
       objectReference: {fileID: 519420031}
@@ -699,18 +639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 846440352, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 846440354, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: p1Speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3703841084916192240, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-      propertyPath: m_Sprite
+    - target: {fileID: 846440357, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+      propertyPath: renderCamera
       value: 
-      objectReference: {fileID: 21300000, guid: ba3800a8e64e9a348b80a7fc23b02776, type: 3}
+      objectReference: {fileID: 519420031}
     - target: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
       propertyPath: m_RootOrder
       value: 2

@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 
 public class Player1Movement : MonoBehaviour
 {
-    [FormerlySerializedAs("_p1Speed")][SerializeField] private float p1Speed = 5f;
+    [FormerlySerializedAs("_p1Speed")][SerializeField] private float p1Speed = 500f;
 
     [Range(0f, 2f)][Tooltip("Amount of time takes input to transition")]
     [FormerlySerializedAs("_smoothSpeed")]
