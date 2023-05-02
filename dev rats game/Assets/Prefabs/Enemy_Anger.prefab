@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 272503980291716995}
   - component: {fileID: 3254230687826914534}
   - component: {fileID: 4503412696523355221}
+  - component: {fileID: -734142276432043319}
   m_Layer: 8
   m_Name: Enemy_Anger
   m_TagString: Enemy
@@ -270,3 +271,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumTurnSpeed: 360
   player: {fileID: 3703841084916192243, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+--- !u!114 &-734142276432043319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272503980291717003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
