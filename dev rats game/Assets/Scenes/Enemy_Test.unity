@@ -1878,12 +1878,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef34011f5c5ee4b9d89fb2a3ec393139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoot: {fileID: 0}
+  shoot: {fileID: 1679972256}
   player: {fileID: 931959793}
   playerRadius: 0
   frames: 10
   accuracy: 100
   targetPosition: {x: 0, y: 0}
+--- !u!114 &1679972256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679972245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be650c93f6ac84d6a94c49c8b6954019, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpeed: 0
 --- !u!1 &1792686654
 GameObject:
   m_ObjectHideFlags: 0

@@ -153,6 +153,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 100
   resetTime: 3
+  enemyPhases: {fileID: 1392365938458097834}
+  phaseOneHealth: 80
+  phaseTwoHealth: 50
+  phaseThreeHealth: 30
 --- !u!114 &1229940180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthToReduce: 5
+  healthToReduce: 1
 --- !u!114 &6156794738353308147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,4 +271,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPhases: 
+  phasingEnabled: 1
+  bulletSettingsArray:
+  - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
+  - {fileID: 11400000, guid: a03a20a1038d53f49bf4054c6decf554, type: 2}
+  - {fileID: 11400000, guid: 8462cd0926af801458e08b3708bc0ac3, type: 2}
+  - {fileID: 11400000, guid: 2a4c907c2ad1b464d8e13f254a8e5be9, type: 2}
+  spawnSettingsArray:
+  - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
+  - {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
+  - {fileID: 11400000, guid: 879622451e9fe4a499f5d49c7726f2c2, type: 2}
+  - {fileID: 11400000, guid: c55702b7423f3304f90c47978cea7979, type: 2}

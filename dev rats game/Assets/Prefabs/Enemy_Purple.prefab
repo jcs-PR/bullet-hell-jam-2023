@@ -199,6 +199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 100
   resetTime: 3
+  enemyPhases: {fileID: -6243150583125289225}
+  usingEnemyPhasing: 0
 --- !u!114 &192044011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,3 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSettingsArray:
+  - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
+  spawnSettingsArray:
+  - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}

@@ -2469,6 +2469,10 @@ PrefabInstance:
       propertyPath: infinityEnabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5813783576899299711, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+      propertyPath: maxBulletAmount
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6450565513757978257, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
       propertyPath: playerHealth
       value: 100

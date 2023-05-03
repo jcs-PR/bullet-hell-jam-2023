@@ -1,13 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using BulletFury;
+using BulletFury.Data;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class EnemyPhases : MonoBehaviour
 {
     private int enemyPhases = 0;
 
     private BulletManager _bulletManager;
+
+    [SerializeField] private bool phasingEnabled = false;
+
+    [FormerlySerializedAs("_bulletSettingsArray")] [SerializeField] private BulletSettings[] bulletSettingsArray;
+    [FormerlySerializedAs("_spawnSettingsArray")] [SerializeField] private SpawnSettings[] spawnSettingsArray;
     
     // Start is called before the first frame update
     void Start()
@@ -15,27 +22,11 @@ public class EnemyPhases : MonoBehaviour
         _bulletManager = FindObjectOfType<BulletManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdatePhase(int newPhaseID)
     {
-        
-    }
-
-    public void UpdatePhase()
-    {
-        if (enemyPhases == 1)
-        {
-            
-        }
-        else if (enemyPhases == 2)
-        {
-            
-        }
-
-        else if (enemyPhases == 3)
-        {
-            
-        }
+        enemyPhases = newPhaseID;
+        _bulletManager.SetBulletSettings(bulletSettingsArray[newPhaseID]);
+        _bulletManager.SetSpawnSettings(spawnSettingsArray[newPhaseID]);
     }
 
     public int GetCurrentPhase()
@@ -46,5 +37,10 @@ public class EnemyPhases : MonoBehaviour
     public void IncreasePhase()
     {
         enemyPhases++;
+    }
+
+    public bool IsPhasingEnabled()
+    {
+        return phasingEnabled;
     }
 }
