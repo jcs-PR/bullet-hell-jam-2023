@@ -256,7 +256,7 @@ namespace BulletFury
         /// </summary>
         private void Update()
         {
-            if (!Application.isPlaying) return;
+            if (!Application.isPlaying || _bullets == null) return;
             var deltaTime = Time.deltaTime;
             // update the bullets according to the settings
             for (int i = _bullets.Length - 1; i >= 0; --i)

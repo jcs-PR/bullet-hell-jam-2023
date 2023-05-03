@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27a23ae2178c4258a35e0704bcdfe093, type: 3}
-  m_Name: EnemySpawn
+  m_Name: Galialos_Spawn1
   m_EditorClassIdentifier: 
-  fireRate: 1
+  fireRate: 3
   burstCount: 4
   burstDelay: 1
   spawnDir: 0

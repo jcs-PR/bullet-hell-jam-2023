@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxBulletAmount: 500
-  infinityEnabled: 0
+  infinityEnabled: 1
 --- !u!114 &5560184637171931857
 MonoBehaviour:
   m_ObjectHideFlags: 0
