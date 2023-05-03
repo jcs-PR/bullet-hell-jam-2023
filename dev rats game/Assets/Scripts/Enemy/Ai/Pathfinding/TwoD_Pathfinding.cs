@@ -23,7 +23,7 @@ public class TwoD_Pathfinding : MonoBehaviour
 	{
 		startNode = grid.NodeFromWorldPosition(startPos);
 		targetNode = grid.NodeFromWorldPosition(targetPos);
-		if (startNode == targetNode)
+		if (startNode == targetNode || !targetNode.walkable)
 			return;
 
 		List<TwoD_Node> openSet = new List<TwoD_Node>();

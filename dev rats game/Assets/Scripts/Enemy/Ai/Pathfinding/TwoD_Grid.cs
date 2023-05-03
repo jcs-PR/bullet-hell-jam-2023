@@ -10,12 +10,12 @@ public class TwoD_Grid : MonoBehaviour
 	[SerializeField] public  float nodeRadius;
 	[SerializeField] private bool showGizmos;
 	[SerializeField] private bool showGrid;
-	[SerializeField] private bool showStartToTarget;
-	[SerializeField] private bool showPath;
+	[SerializeField] public bool showStartToTarget;
+	[SerializeField] public bool showPath;
 
 	private TwoD_Pathfinding pathfinding;
 	private TwoD_Node[,] grid;
-	private float nodeDiameter;
+	public float nodeDiameter;
 	private int gridSizeX, gridSizeY;
 
 	void Awake()
@@ -30,15 +30,15 @@ public class TwoD_Grid : MonoBehaviour
 	private void CreateGrid()
 	{
 		grid = new TwoD_Node[gridSizeX, gridSizeY];
-		Vector3 worldBottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.forward * gridWorldSize.y / 2;
+		Vector3 worldBottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.up * gridWorldSize.y / 2;
 		//Loop through all nodes and check if is walkable
 		for (int x = 0; x < gridSizeX; x++)
 		{
 			for (int y = 0; y < gridSizeY; y++)
 			{
 				Vector3 nodePoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) +
-					Vector3.forward * (y * nodeDiameter + nodeRadius);
-				bool walkable = !(Physics.CheckSphere(nodePoint, nodeRadius, unwalkableMask));
+					Vector3.up * (y * nodeDiameter + nodeRadius);
+				bool walkable = !(Physics2D.OverlapCircle(nodePoint, nodeRadius, unwalkableMask));
 				grid[x, y] = new TwoD_Node(walkable, nodePoint, x, y);
 			}
 		}
@@ -68,7 +68,7 @@ public class TwoD_Grid : MonoBehaviour
 	public TwoD_Node NodeFromWorldPosition(Vector3 worldPosition)
 	{
 		float percentX = (worldPosition.x - transform.position.x + gridWorldSize.x / 2) / gridWorldSize.x;
-		float percentY = (worldPosition.z - transform.position.z + gridWorldSize.y / 2) / gridWorldSize.y;
+		float percentY = (worldPosition.y - transform.position.y + gridWorldSize.y / 2) / gridWorldSize.y;
 
 		percentX = Mathf.Clamp01(percentX);
 		percentY = Mathf.Clamp01(percentY);
@@ -85,47 +85,7 @@ public class TwoD_Grid : MonoBehaviour
 		{
             if (showGrid)
             {
-				Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, transform.position.y, gridWorldSize.y));
-			}
-
-			Color blue = Color.blue;
-			blue.a = 0.5f;
-			Color black = Color.black;
-			black.a = 1f;
-			Color red = Color.red;
-			red.a = 0.8f;
-			Color green = Color.green;
-			green.a = 0.8f;
-
-			if (grid != null )
-			{
-				foreach (TwoD_Node n in grid)
-				{
-                    if (showPath && path != null)
-                    {
-						if (path.Contains(n))
-						{
-							if (n != pathfinding.targetNode)
-							{
-								Gizmos.color = blue;
-								Gizmos.DrawCube(n.nodePosition, Vector3.one * (nodeDiameter - 0.01f));
-							}
-						}
-					}
-					if (!n.walkable && showGrid)
-					{
-						Gizmos.color = black;
-						Gizmos.DrawCube(n.nodePosition, Vector3.one * (nodeDiameter - 0.1f));
-
-					}
-				}
-				if (path != null && showStartToTarget)
-				{
-					Gizmos.color = green;
-					Gizmos.DrawCube(pathfinding.startNode.nodePosition, Vector3.one * (nodeDiameter + 0.1f));
-					Gizmos.color = red;
-					Gizmos.DrawCube(pathfinding.targetNode.nodePosition, Vector3.one * (nodeDiameter + 0.1f));
-				}
+				Gizmos.DrawWireCube(transform.position, new Vector2(gridWorldSize.x, gridWorldSize.y));
 			}
 		}
 	}
