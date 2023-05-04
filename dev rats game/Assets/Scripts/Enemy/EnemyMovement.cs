@@ -38,7 +38,7 @@ public class EnemyMovement : MonoBehaviour
     {
         Vector2 currentPosition = rigidbody2D.position;
        Vector2 newPosition = new Vector2(Random.Range(minimumMovement, maximumMovement), Random.Range(minimumMovement, maximumMovement)); // Placeholder, to be revised. 
-       rigidbody2D.MovePosition(currentPosition + newPosition * movementSpeed * Time.deltaTime);
+       rigidbody2D.velocity = (currentPosition + newPosition * movementSpeed * Time.deltaTime);
        _enemyTimer = startingEnemyTimer;
     }
     
