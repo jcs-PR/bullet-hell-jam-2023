@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 192044011}
   - component: {fileID: 192044012}
   - component: {fileID: -6243150583125289225}
+  - component: {fileID: -5904737639034472945}
   m_Layer: 8
   m_Name: Enemy_Purple
   m_TagString: Enemy
@@ -200,7 +201,9 @@ MonoBehaviour:
   enemyHealth: 100
   resetTime: 3
   enemyPhases: {fileID: -6243150583125289225}
-  usingEnemyPhasing: 0
+  phaseOneHealth: 0
+  phaseTwoHealth: 0
+  phaseThreeHealth: 0
 --- !u!114 &192044011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,7 +270,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  phasingEnabled: 0
   bulletSettingsArray:
   - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
   spawnSettingsArray:
   - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
+--- !u!114 &-5904737639034472945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6791514189416909715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e066c5c58cd244f8a428c25382696a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 1366442206}
+  startingEnemyTimer: 3
+  minimumMovement: 1
+  maximumMovement: 6
+  movementSpeed: 2

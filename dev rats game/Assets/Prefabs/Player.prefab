@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxBulletAmount: 500
+  maxBulletAmount: 100
   infinityEnabled: 1
 --- !u!114 &5560184637171931857
 MonoBehaviour:

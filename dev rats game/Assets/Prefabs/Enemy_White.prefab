@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1229940188}
   - component: {fileID: 6156794738353308147}
   - component: {fileID: 1392365938458097834}
+  - component: {fileID: 5070559422972881585}
   m_Layer: 8
   m_Name: Enemy_White
   m_TagString: Enemy
@@ -258,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumTurnSpeed: 360
-  player: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+  player: {fileID: 0}
 --- !u!114 &1392365938458097834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,3 +283,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
   - {fileID: 11400000, guid: 879622451e9fe4a499f5d49c7726f2c2, type: 2}
   - {fileID: 11400000, guid: c55702b7423f3304f90c47978cea7979, type: 2}
+--- !u!114 &5070559422972881585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352378351172105623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e066c5c58cd244f8a428c25382696a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 6352378351172105609}
+  startingEnemyTimer: 3
+  minimumMovement: 1
+  maximumMovement: 6
+  movementSpeed: 2
