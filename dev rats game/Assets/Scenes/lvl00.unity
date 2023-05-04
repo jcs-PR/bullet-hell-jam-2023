@@ -791,7 +791,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305011643}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: -7.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -799,7 +799,7 @@ Transform:
   - {fileID: 1803031013}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1305011645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -816,6 +816,7 @@ MonoBehaviour:
   rotationObj: {fileID: 1803031012}
   bulletObj: {fileID: 1957350699}
   playerTransform: {fileID: 279856304}
+  angleOffset: 270
 --- !u!1 &1470643323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1120,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803031012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1127,7 +1128,7 @@ Transform:
   - {fileID: 1957350700}
   m_Father: {fileID: 1305011644}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &1803031014
 SpriteRenderer:
   m_ObjectHideFlags: 0

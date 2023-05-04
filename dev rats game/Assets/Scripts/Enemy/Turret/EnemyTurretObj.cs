@@ -9,6 +9,8 @@ public class EnemyTurretObj : MonoBehaviour
     [SerializeField] private GameObject bulletObj;
 
     [SerializeField] private Transform playerTransform;
+
+    [SerializeField] private float angleOffset = 180f;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class EnemyTurretObj : MonoBehaviour
     {
         Vector3 playerDirection = playerTransform.position - rotationObj.transform.position;
         float angle = Mathf.Atan2(playerDirection.y, playerDirection.x);
-        rotationObj.transform.rotation = Quaternion.Euler(0f, 0f, angle * Mathf.Rad2Deg);
+        float newDegAngle = angle * Mathf.Rad2Deg - angleOffset;
+        rotationObj.transform.rotation = Quaternion.Euler(0f, 0f, newDegAngle);
     }
 }
