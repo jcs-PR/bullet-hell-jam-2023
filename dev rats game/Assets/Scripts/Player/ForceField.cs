@@ -159,4 +159,14 @@ public class ForceField : MonoBehaviour
     {
         canRegen = true;
     }
+
+    public void MakeAvailable()
+    {
+        gameObject.SetActive(true);
+    }
+
+    public void MakeUnavailable()
+    {
+        gameObject.SetActive(false);
+    }
 }

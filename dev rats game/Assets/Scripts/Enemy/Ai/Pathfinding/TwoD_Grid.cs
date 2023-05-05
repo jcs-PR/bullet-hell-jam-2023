@@ -38,7 +38,7 @@ public class TwoD_Grid : MonoBehaviour
 			{
 				Vector3 nodePoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) +
 					Vector3.up * (y * nodeDiameter + nodeRadius);
-				bool walkable = !(Physics2D.OverlapCircle(nodePoint, nodeRadius, unwalkableMask));
+				bool walkable = !(Physics2D.OverlapCircle(nodePoint, nodeRadius - 0.1f, unwalkableMask));
 				grid[x, y] = new TwoD_Node(walkable, nodePoint, x, y);
 			}
 		}
@@ -88,5 +88,17 @@ public class TwoD_Grid : MonoBehaviour
 				Gizmos.DrawWireCube(transform.position, new Vector2(gridWorldSize.x, gridWorldSize.y));
 			}
 		}
-	}
+		if(path != null)
+		{
+            foreach (var node in grid)
+            {
+                if (!node.walkable)
+                {
+                    Gizmos.color = Color.black;
+                    Gizmos.DrawCube(node.nodePosition, Vector3.one * (nodeDiameter - 0.1f));
+                }
+            }
+        }
+
+    }
 }

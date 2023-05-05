@@ -19,18 +19,18 @@ public class PathManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (WantPath.moveTowards.Count > 0)
+        if (WantPath.AI.Count > 0)
         {
-            Debug.Log("dfa");
-            MoveTowards user = WantPath.moveTowards[index];
-            List<TwoD_Node>_path = pathfinder.GetPath(user.transform.position, user.targetNode.nodePosition);
+            ShooterAI user = WantPath.AI[index];
+            List<TwoD_Node>_path = pathfinder.GetPath(user.transform.position,
+                user.targetNode.nodePosition);
 
-            if (pathfinder.path.Count > 0)
+            if (pathfinder.path.Count > 1)
             {
                 user.GetVariables(true, _path);
-                WantPath.moveTowards.Remove(user);
+                WantPath.AI.Remove(user);
             }
-            else if(WantPath.moveTowards.Count > 1)
+            else if(WantPath.AI.Count > 1)
                 index++;
         }
         else
@@ -39,7 +39,7 @@ public class PathManager : MonoBehaviour
 
     public static class WantPath
     {
-        [SerializeField] static public List<MoveTowards>
-            moveTowards = new List<MoveTowards>();
+        [SerializeField] static public List<ShooterAI>
+            AI = new List<ShooterAI>();
     }
 }
