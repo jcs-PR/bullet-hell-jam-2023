@@ -35,6 +35,7 @@ public class ShooterAI : MonoBehaviour
     bool hasSeenPlayer = false;
     bool move;
     float tension;
+    TwoD_Node playerNode;
 
     // Start is called before the first frame update
     void Start()
@@ -115,7 +116,6 @@ public class ShooterAI : MonoBehaviour
                 move = false;
                 Attack();
             }
-
         }
         else if (usingPathfinder && grid.NodeFromWorldPosition(transform.position) == path[pathIndex])
         {
@@ -129,17 +129,18 @@ public class ShooterAI : MonoBehaviour
         yield return new WaitForSeconds(checkDelay);
 
         CheckPlayerPos();
+
+        if (currentBehaviour == Behaviour.Follow && playerNode !=
+            grid.NodeFromWorldPosition(player.position))
+        {
+            MoveInAttackRange();
+            GetComponent<SpriteRenderer>().color = Color.white;
+        }
+
         if (previousBehaviour != currentBehaviour)
         {
-            if (currentBehaviour == Behaviour.Follow)
+            if(currentBehaviour == Behaviour.Attack || currentBehaviour == Behaviour.Run)
             {
-                MoveInAttackRange();
-                GetComponent<SpriteRenderer>().color = Color.white;
-            }
-
-            else if(currentBehaviour == Behaviour.Attack || currentBehaviour == Behaviour.Run)
-            {
-                move = false;
                 Attack();
 
                 if (currentBehaviour == Behaviour.Run)
@@ -157,9 +158,10 @@ public class ShooterAI : MonoBehaviour
 
     private void CheckPlayerPos()
     {
+        Vector2 vector = player.position - transform.position;
         if (Physics2D.OverlapCircle(transform.position, followRange, playerMask) &&
-            !Physics2D.CircleCast(transform.position, size, (player.position - transform.position).normalized,
-            followRange, obstacleMask))
+            !Physics2D.CircleCast(transform.position, size, vector.normalized,
+            vector.magnitude, obstacleMask))
         {
             hasSeenPlayer = true;
             //If player in vision(followRange)
@@ -208,6 +210,7 @@ public class ShooterAI : MonoBehaviour
             GetPathToTarget();
         else
             MoveInAttackRange();
+        playerNode = grid.NodeFromWorldPosition(player.position);
     }
 
     private void MoveRandomly()
@@ -225,7 +228,7 @@ public class ShooterAI : MonoBehaviour
     {
         Vector3 vector = transform.position - player.position;
         Vector3 targetPos = transform.position + (vector.normalized *
-            (safeRange - vector.magnitude));
+            ((safeRange + 1) - vector.magnitude));
         targetPos = GetRandomPos(targetPos, vector, attackRange - safeRange);
 
         if (IsValidTarget(targetPos))
@@ -260,12 +263,6 @@ public class ShooterAI : MonoBehaviour
     {
         Vector2 randVector = new Vector2(Random.Range(safeRange, attackRange),
             Random.Range(safeRange, attackRange));
-        RaycastHit2D ray;
-        ray = Physics2D.CircleCast(transform.position, size, randVector.normalized, randVector.magnitude, obstacleMask);
-        if (ray == true)
-        {
-            randVector = ray.point + (size * -randVector.normalized);
-        }
 
         Vector2 targetPos = (player.position + new Vector3(randVector.x, randVector.y));
 
@@ -327,6 +324,7 @@ public class ShooterAI : MonoBehaviour
             }
         }
 
+        Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(transform.position, followRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, safeRange);
