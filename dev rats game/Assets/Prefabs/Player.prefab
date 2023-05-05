@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderCamera: {fileID: 0}
+  renderCamera: {fileID: 5968324999985749137, guid: eae8b80522ab99b4d9bb313c36bf06db, type: 3}
   manualFire: 1
   bulletSettings: {fileID: 11400000, guid: 55598acd64699b64d97e8f60430ff0ae, type: 2}
   spawnSettings: {fileID: 11400000, guid: dcb486b716744c64abf33b27e39648f6, type: 2}
