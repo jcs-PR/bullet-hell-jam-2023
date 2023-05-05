@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GalialosBullet2
   m_EditorClassIdentifier: 
   mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
-  material: {fileID: 2100000, guid: 1e2d9e497a9c9494b9a879b878ca070a, type: 2}
+  material: {fileID: 2100000, guid: a58091522e19e85418176fe8fbc57e05, type: 2}
   plane: 0
   waitToStart: 0
   timeToPlayWhileWaiting: 0
