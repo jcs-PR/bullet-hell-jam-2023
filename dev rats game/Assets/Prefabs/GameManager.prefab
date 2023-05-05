@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicClips:
-  - {fileID: 8300000, guid: 4001a5175cce3ad4cb209e36c91142c6, type: 3}
+  - {fileID: 8300000, guid: ddaeef149596ae94cbd026438012afff, type: 3}
   lvl01Name: lvl01
 --- !u!114 &3682715191781291373
 MonoBehaviour:
@@ -61,6 +61,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe8565fc2ad4274780709c2d4ce07cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetTime: 3
+  lvl01Name: lvl01
+  lvl02Name: lvl02
+  gameOverLvlName: gameover
+  isPaused: 0
 --- !u!82 &7293346482043216928
 AudioSource:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 3254230687826914534}
   - component: {fileID: 4503412696523355221}
   - component: {fileID: 6170347950134339742}
+  - component: {fileID: 2395190884802581056}
   m_Layer: 8
   m_Name: Enemy_Anger
   m_TagString: Enemy
@@ -123,7 +124,9 @@ MonoBehaviour:
   enemyHealth: 25
   resetTime: 3
   enemyPhases: {fileID: 6170347950134339742}
-  usingEnemyPhasing: 0
+  phaseOneHealth: 0
+  phaseTwoHealth: 0
+  phaseThreeHealth: 0
 --- !u!50 &272503980291716994
 Rigidbody2D:
   serializedVersion: 4
@@ -232,6 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eHealth: {fileID: 272503980291716999}
   healthToReduce: 5
 --- !u!61 &3254230687826914534
 BoxCollider2D:
@@ -272,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumTurnSpeed: 360
-  player: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+  player: {fileID: 0}
 --- !u!114 &6170347950134339742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +289,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  phasingEnabled: 0
   bulletSettingsArray:
   - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
   spawnSettingsArray:
   - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
+--- !u!114 &2395190884802581056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272503980291717003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e066c5c58cd244f8a428c25382696a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody2D: {fileID: 272503980291716994}
+  startingEnemyTimer: 3
+  minimumMovement: 1
+  maximumMovement: 6
+  movementSpeed: 2
