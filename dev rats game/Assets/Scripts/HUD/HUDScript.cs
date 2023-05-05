@@ -22,6 +22,11 @@ public class HUDScript : MonoBehaviour
 
     [SerializeField] private GameObject pausePanel;
 
+    private void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -87,7 +92,6 @@ public class HUDScript : MonoBehaviour
 
     public void ResetGame()
     {
-        Time.timeScale = 1;
         SceneManager.LoadScene(firstLevelName);
     }
 

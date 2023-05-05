@@ -1,16 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using BulletFury;
 using BulletFury.Data;
 
 public class EnemyHit : MonoBehaviour
 {
-    [SerializeField] private EnemyHealth eHealth;
+    private EnemyHealth _eC;
     
     [SerializeField] private int healthToReduce = 5;
+    // Start is called before the first frame update
+    void Start()
+    {
+        _eC = GetComponent<EnemyHealth>();
+    }
 
     public void OnBulletHit(BulletContainer bCon, BulletCollider bCol)
     {
-        eHealth.ReduceEnemyHealth(healthToReduce);
-        eHealth.CheckEnemyHealth(); 
+        _eC.ReduceEnemyHealth(healthToReduce);
+        _eC.CheckEnemyHealth(); 
     }
 }
