@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eHealth: {fileID: 1229940179}
   healthToReduce: 1
 --- !u!114 &6156794738353308147
 MonoBehaviour:

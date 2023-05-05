@@ -235,6 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7195a5eb66b8af84bb61b94d22ae0d6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eHealth: {fileID: 272503980291716999}
   healthToReduce: 5
 --- !u!61 &3254230687826914534
 BoxCollider2D:
