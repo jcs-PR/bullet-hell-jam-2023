@@ -23,7 +23,8 @@ public class ShooterAI : MonoBehaviour
     Behaviour previousBehaviour;
 
     //private variables
-    public List<TwoD_Node> path = new List<TwoD_Node>();
+    List<TwoD_Node> path = new List<TwoD_Node>();
+    TwoD_Node playerNode;
     Vector2 curVelocity;
     Vector2 moveDir;
     int pathIndex;
@@ -35,13 +36,20 @@ public class ShooterAI : MonoBehaviour
     bool hasSeenPlayer = false;
     bool move;
     float tension;
-    TwoD_Node playerNode;
+    Shoot shoot;
 
+    private void Awake()
+    {
+        grid = GameObject.Find("A*").GetComponent<TwoD_Grid>();
+        player = GameObject.Find("Player").GetComponent<Transform>();
+        size = GetComponent<CircleCollider2D>().radius;
+        enemyRb = GetComponent<Rigidbody2D>();
+        shoot = GetComponent<Shoot>();
+        GetComponent<Aim>().maxRange = attackRange;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        size = GetComponent<CircleCollider2D>().radius;
-        enemyRb = GetComponent<Rigidbody2D>();
         MoveRandomly();
     }
 
@@ -50,14 +58,17 @@ public class ShooterAI : MonoBehaviour
     {
         StartCoroutine(RefreshAI());
         StartCoroutine(CheckPath());
+
+        if(currentBehaviour == Behaviour.Attack || currentBehaviour == Behaviour.Run)
+            shoot.canAttack = true;
+        else
+            shoot.canAttack = false;
     }
 
     private void FixedUpdate()
     {
         if (move)
-        {
             MoveTowardsTarget();
-        }
         else
             enemyRb.velocity = Vector2.zero;
     }
@@ -78,6 +89,7 @@ public class ShooterAI : MonoBehaviour
         else
         {
             moveDir = targetNode.nodePosition - transform.position;
+            shoot.RotateTowardsTarget(targetNode.nodePosition);
             List<TwoD_Node> node = new List<TwoD_Node>();
             node.Add(targetNode);
             GetVariables(true, node);
@@ -88,7 +100,9 @@ public class ShooterAI : MonoBehaviour
     {
         if (usingPathfinder)
         {
-            moveDir = path[pathIndex].nodePosition - transform.position;
+            Vector3 node = path[pathIndex].nodePosition;
+            moveDir = node - transform.position;
+            shoot.RotateTowardsTarget(node);
         }
 
         enemyRb.velocity = moveDir.normalized * moveSpeed * Time.deltaTime;

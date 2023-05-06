@@ -6,15 +6,16 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-    [HideInInspector] public float bulletSpeed;
     [Range(0f, 2f)]
     [SerializeField] private float smooth;
+    [HideInInspector]public bool canAttack;
 
     BulletManager _bm;
     Aim _aim;
     Vector3 targetPos;
     Vector2 smoothVelocity;
-    bool canAttack;
+    Vector3 playerPos;
+    float bulletSpeed;
     float deltaSpeed;
 
     private void Start()
@@ -22,7 +23,8 @@ public class Shoot : MonoBehaviour
         _bm = GetComponent<BulletManager>();
         bulletSpeed = _bm.GetBulletSettings().Speed;
         _aim = GetComponent<Aim>();
-        canAttack = true;
+        canAttack = false;
+        playerPos = _aim.player.position;
     }
 
     private void Update()
@@ -30,18 +32,20 @@ public class Shoot : MonoBehaviour
         if (canAttack)
         {
             deltaSpeed = bulletSpeed * Time.deltaTime;
-            RotateTowardsTarget();
+            targetPos = _aim.GetTargetPos(deltaSpeed);
+            RotateTowardsTarget(targetPos);
             _bm.GetBulletSettings().SetSpeed(deltaSpeed);
             _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ?
                 transform.up : transform.forward);
         }
+
     }
 
-    private void RotateTowardsTarget()
+    public void RotateTowardsTarget(Vector3 target)
     {
-        targetPos = _aim.GetTargetPos(deltaSpeed);
-        Debug.DrawLine(transform.position, targetPos);
-        transform.up = Vector2.SmoothDamp(transform.up, targetPos - transform.position,
+        
+        Debug.DrawLine(transform.position, target);
+        transform.up = Vector2.SmoothDamp(transform.up, target - transform.position,
             ref smoothVelocity, smooth);
     }
 }

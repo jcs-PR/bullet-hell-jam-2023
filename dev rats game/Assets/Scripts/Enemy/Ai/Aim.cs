@@ -5,20 +5,24 @@ using UnityEngine.Serialization;
 
 public class Aim : MonoBehaviour
 {
-    [SerializeField] private Transform player;
+    [SerializeField] public Transform player;
     [SerializeField] private float playerRadius;
     [Tooltip("frames skiped while predicting position")]
-    [Range(1f, 20f)]
+    [Range(1, 20)]
     [FormerlySerializedAs("_frames")] [SerializeField] private int frames = 10;
+    [Range(1, 100)]
+    [FormerlySerializedAs("_steps")][SerializeField] private int steps = 20;
     [Range(1f, 100f)]
     [FormerlySerializedAs("_accuracy")][SerializeField] private float accuracy = 100f;
+
+    [HideInInspector] public float maxRange;
 
     //Private varibles
     Rigidbody2D playerRb;
     List<Vector2> predictedPlayerPos = new List<Vector2>();
     List<Vector2> predictedBulletPos = new List<Vector2>();
     Vector2 targetPosition;
-    public float bulletSpeed;
+    float bulletSpeed;
     bool shoot = false;
 
     // Start is called before the first frame update
@@ -39,9 +43,10 @@ public class Aim : MonoBehaviour
     {
         Vector2 targetPos = playerRb.position;
         Vector2 bulletPos = transform.position;
+        bool finished = false;
         predictedPlayerPos.Clear();
         predictedBulletPos.Clear();
-        for(int i = 1; i < 20; i++)
+        for(int i = 1; i < steps; i++)
         {
             //predict target's position
             targetPos += playerRb.velocity * Time.fixedDeltaTime * frames;
@@ -49,11 +54,17 @@ public class Aim : MonoBehaviour
             //predict bullet's position
             Vector2 shootDir = targetPos - new Vector2(transform.position.x, transform.position.y);
             bulletPos += shootDir.normalized * bulletSpeed * Time.fixedDeltaTime * frames;
+
             predictedBulletPos.Add(bulletPos);
         }
-        bool finished = false;
         foreach (var target in predictedPlayerPos)
         {
+            if ((target - new Vector2(transform.position.x, transform.position.y)).magnitude >= maxRange)
+            {
+                targetPos = player.position;
+                finished = true;
+                break;
+            }
             if (finished)
                 break;
             foreach (var position in predictedBulletPos)
