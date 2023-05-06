@@ -10,6 +10,9 @@ public class LvlEndPoint : MonoBehaviour
     private int _numOfEnemies;
 
     [SerializeField] private string lvl01Name = "lvl01";
+    [SerializeField] private string gameOverName = "Game Over";
+    
+    [SerializeField] private bool isEndLevel = false;
     
     // Start is called before the first frame update
     void Start()
@@ -30,7 +33,15 @@ public class LvlEndPoint : MonoBehaviour
            GetEnemyCount();
            if (_numOfEnemies == 0)
            {
-               SceneManager.LoadScene(lvl01Name);
+               if (!isEndLevel)
+               {
+                   int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+                   SceneManager.LoadScene(currentSceneIndex + 1);
+               }
+               else
+               {
+                   SceneManager.LoadScene(gameOverName);
+               }
            }
         }
     }

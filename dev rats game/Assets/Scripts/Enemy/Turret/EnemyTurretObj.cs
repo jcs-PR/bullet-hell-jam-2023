@@ -20,9 +20,13 @@ public class EnemyTurretObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerDirection = playerTransform.position - rotationObj.transform.position;
-        float angle = Mathf.Atan2(playerDirection.y, playerDirection.x);
-        float newDegAngle = angle * Mathf.Rad2Deg - angleOffset;
-        rotationObj.transform.rotation = Quaternion.Euler(0f, 0f, newDegAngle);
+        if (playerTransform != null)
+        {
+            Vector3 playerDirection = playerTransform.position - rotationObj.transform.position;
+            float angle = Mathf.Atan2(playerDirection.y, playerDirection.x);
+            float newDegAngle = angle * Mathf.Rad2Deg - angleOffset;
+            rotationObj.transform.rotation = Quaternion.Euler(0f, 0f, newDegAngle);
+        }
+
     }
 }

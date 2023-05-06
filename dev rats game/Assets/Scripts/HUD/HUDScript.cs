@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class HUDScript : MonoBehaviour
@@ -15,8 +16,8 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private TMP_Text ammoTxt;
     [SerializeField] private TMP_Text healthAmountTxt;
 
-    private Player1Shooting _player1Shooting;
-    private Player1Health _player1Health;
+    [FormerlySerializedAs("_player1Shooting")] [SerializeField] Player1Shooting player1Shooting;
+    [FormerlySerializedAs("_player1Health")] [SerializeField] Player1Health player1Health;
 
     [SerializeField] private Slider healthSlider;
 
@@ -26,8 +27,6 @@ public class HUDScript : MonoBehaviour
     void Start()
     {
         pausePanel.SetActive(false);
-        _player1Shooting = FindObjectOfType<Player1Shooting>();
-        _player1Health = FindObjectOfType<Player1Health>();
         UpdateHUDValues();
     }
 
@@ -39,13 +38,12 @@ public class HUDScript : MonoBehaviour
 
     void UpdateHUDValues()
     {
-        if (_player1Shooting != null)
+        if (player1Shooting != null)
         {
             UpdateAmmoTxt();
-
         }
 
-        if (_player1Health != null)
+        if (player1Health != null)
         {
             UpdateHealthSlider();
             UpdateHealthAmountTxt();
@@ -55,26 +53,26 @@ public class HUDScript : MonoBehaviour
 
     void UpdateHealthSlider()
     {
-        healthSlider.value = _player1Health.GetPlayerCurrentHealth();
+        healthSlider.value = player1Health.GetPlayerCurrentHealth();
     }
 
     void UpdateHealthAmountTxt()
     {
-        healthAmountTxt.text = _player1Health.GetPlayerCurrentHealth().ToString();
+        healthAmountTxt.text = player1Health.GetPlayerCurrentHealth().ToString();
     }
 
     private void UpdateAmmoTxt()
     {
-        if (_player1Shooting.GetInfinityEnabled())
+        if (player1Shooting.GetInfinityEnabled())
         {
             char infinitySymbol = '\u221e';
             string newInfinityAmmoTxt = "Ammo \n" + infinitySymbol.ToString();
             ammoTxt.text = newInfinityAmmoTxt;
         }
         
-        else if (!_player1Shooting.GetInfinityEnabled())
+        else if (!player1Shooting.GetInfinityEnabled())
         {
-            string newStandardArrowTxt = "Ammo \n" + _player1Shooting.GetBulletAmount().ToString();
+            string newStandardArrowTxt = "Ammo \n" + player1Shooting.GetBulletAmount().ToString();
             ammoTxt.text = newStandardArrowTxt;
         }
 
@@ -87,7 +85,6 @@ public class HUDScript : MonoBehaviour
 
     public void ResetGame()
     {
-        Time.timeScale = 1;
         SceneManager.LoadScene(firstLevelName);
     }
 
