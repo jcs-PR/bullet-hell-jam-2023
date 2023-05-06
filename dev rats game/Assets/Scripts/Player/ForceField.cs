@@ -6,16 +6,16 @@ using System.Linq;
 
 public class ForceField : MonoBehaviour
 {
-    [SerializeField] LineRenderer line;
-    [SerializeField] private int steps;
+    [SerializeField] private  LineRenderer line;
+    [SerializeField] private Material color;
+    [SerializeField] private  Material transparent;
+    [SerializeField] private float steps;
     [SerializeField] public float radius;
     [Range(0f, 360f)]
     [SerializeField] public float angle;
     [SerializeField] private float health;
     [SerializeField] private float regenAmount;
     [SerializeField] private float regenTime;
-    [SerializeField] private TextMeshProUGUI healthText;
-    [SerializeField] public TextMeshProUGUI lengthText;
 
     List<Vector2> vertexPos;
     List<int> closedPoints;
@@ -28,29 +28,34 @@ public class ForceField : MonoBehaviour
     float maxHealth;
     float curRegenTime;
     bool canRegen;
+    MeshCollider meshCollider;
+    LineRenderer _line;
+    int prevSteps;
+    float maxSteps;
 
     private void Start()
     {
+        meshCollider = GetComponent<MeshCollider>();
         _health = health;
-        _steps = steps;
-
+        _steps = (int) steps;
         vertexPos = new List<Vector2>();
         closedPoints = new List<int>();
         curAngle = angle;
-        DrawForceField();
         maxHealth = _health;
         multiplier = _steps / _health;
         curRegenTime = regenTime;
+        prevSteps = _steps;
+        maxSteps = _steps * multiplier;
         canRegen = false;
+        DrawForceField();
+        GenerateCollider();
     }
 
     private void Update()
     {
-        health = _health/2;
-        steps = _steps/2;
+        health = _health * multiplier * multiplier;
+        steps = _steps * multiplier;
 
-        healthText.text = new string("Health : " + health);
-        lengthText.text = new string("Shield Length : " + steps);
         if (curRegenTime <= 0f && canRegen)
         {
             curRegenTime = regenTime;
@@ -59,6 +64,12 @@ public class ForceField : MonoBehaviour
         else if(curRegenTime >= 0f)
             curRegenTime -= Time.deltaTime;
 
+        if (Input.GetKey(KeyCode.E))
+        {
+            DoDamage(10f);
+        }
+        if (steps == 0f)
+            health = 0f;
     }
 
     public Vector3 DirFromAngle(float angle)
@@ -94,13 +105,15 @@ public class ForceField : MonoBehaviour
 
     public void DoDamage(float damage)
     {
-        if (_health - damage <= 0f)
-            return;
-        _health -= damage;
-        _steps = Mathf.RoundToInt(multiplier * _health);
-        ShrinkField(line.positionCount - _steps);
-        canRegen = false;
-        Invoke("StartRegen", 2f);
+        if (steps >= maxSteps/2)
+        {
+            _health -= damage;
+            _steps = Mathf.RoundToInt(multiplier * _health);
+            ShrinkField(line.positionCount - _steps);
+            canRegen = false;
+            CancelInvoke("StartRegen");
+            Invoke("StartRegen", 2f);
+        }
     }
 
     public void ShrinkField(int pointsToClose)
@@ -121,14 +134,15 @@ public class ForceField : MonoBehaviour
                 line.SetPosition(line.positionCount - point-1, line.GetPosition(maxClosedPoints));
             }
         }
+
+        GenerateCollider();
     }
 
     public void RegenerateShield(float regenAmount)
     {
-        if (_health + regenAmount > maxHealth)
+        if (_health >= maxHealth)
             return;
-
-        _health += regenAmount;
+        _health = Mathf.Clamp(_health + regenAmount, 0f, maxHealth);
         _steps = Mathf.RoundToInt(multiplier * _health);
         int closedCount = closedPoints.Count;
         Vector2 startPos = Vector2.zero;
@@ -153,20 +167,36 @@ public class ForceField : MonoBehaviour
             line.SetPosition(point, startPos);
             line.SetPosition(line.positionCount - point - 1, endPos);
         }
+
+        GenerateCollider();
     }
 
-    private void StartRegen()
-    {
-        canRegen = true;
-    }
+    private void StartRegen() => canRegen = true;
 
     public void MakeAvailable()
     {
-        gameObject.SetActive(true);
+        //gameObject.SetActive(true);
+        line.material = color;
+        meshCollider.enabled = true;
     }
 
     public void MakeUnavailable()
     {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
+        line.material = transparent;
+        meshCollider.enabled = false;
+    }
+
+    private void GenerateCollider()
+    {
+        if(prevSteps != steps)
+        {
+            _line = line;
+            Mesh mesh = new Mesh();
+            //line.Simplify(0.1f);
+            line.BakeMesh(mesh);
+            meshCollider.sharedMesh = mesh;
+            prevSteps = _steps;
+        }
     }
 }
