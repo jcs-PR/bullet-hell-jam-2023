@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 1229940188}
   - component: {fileID: 6156794738353308147}
   - component: {fileID: 1392365938458097834}
-  - component: {fileID: 1229940180}
   m_Layer: 8
   m_Name: Enemy_White
   m_TagString: Enemy
@@ -249,37 +248,3 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
   - {fileID: 11400000, guid: 879622451e9fe4a499f5d49c7726f2c2, type: 2}
   - {fileID: 11400000, guid: c55702b7423f3304f90c47978cea7979, type: 2}
---- !u!114 &1229940180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6352378351172105623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 0}
-  manualFire: 0
-  bulletSettings: {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
-  spawnSettings: {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 1
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []
