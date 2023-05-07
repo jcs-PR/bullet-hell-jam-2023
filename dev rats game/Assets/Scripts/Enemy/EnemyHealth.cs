@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
@@ -16,9 +17,12 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int phaseOneHealth;
     [SerializeField] private int phaseTwoHealth;
     [SerializeField] private int phaseThreeHealth;
-    
+
+    [FormerlySerializedAs("_cinemachineVirtualCamera")] 
+    private CinemachineVirtualCamera cinemachineVirtualCamera;
     private void Start()
     {
+        cinemachineVirtualCamera = GetComponent<CinemachineVirtualCamera>();
         enemyPhases.GetComponent<EnemyPhases>();
         if (enemyPhases.IsPhasingEnabled())
         {
@@ -43,6 +47,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            Destroy(cinemachineVirtualCamera.gameObject);
             Player1Health player1Health = other.gameObject.GetComponent<Player1Health>();
             player1Health.SetPlayerHealth(0);
             StartCoroutine(ResetGame());
