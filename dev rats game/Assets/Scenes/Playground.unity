@@ -2771,7 +2771,7 @@ GameObject:
   - component: {fileID: 3703841085022057136}
   - component: {fileID: 3703841085022057137}
   m_Layer: 7
-  m_Name: Player
+  m_Name: Player (With Force Shield)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
