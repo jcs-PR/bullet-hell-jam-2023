@@ -1390,7 +1390,7 @@ MonoBehaviour:
   firstLevelName: lvl01
   ammoTxt: {fileID: 1205665040}
   healthAmountTxt: {fileID: 524433142}
-  player1Shooting: {fileID: 1302998060}
+  player1Shooting: {fileID: 1302998062}
   player1Health: {fileID: 1302998061}
   healthSlider: {fileID: 328610675}
   pausePanel: {fileID: 2012555672}
@@ -3506,17 +3506,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296613782}
   m_CullTransparentMesh: 1
---- !u!114 &1302998060 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5813783576899299711, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
-  m_PrefabInstance: {fileID: 279856303}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1302998061 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6450565513757978257, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
@@ -3526,6 +3515,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0b6c8e36811d1243b2f12880b98dc36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1302998062 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7834054181162086587, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+  m_PrefabInstance: {fileID: 279856303}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742dbe12bdbebec4cb97800680072f75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1310599933

@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 272503980291716998}
   - component: {fileID: 272503980291716999}
   - component: {fileID: 272503980291716994}
+  - component: {fileID: 272503980291716993}
   - component: {fileID: 272503980291716992}
   - component: {fileID: 272503980291716995}
   - component: {fileID: 3254230687826914534}
   - component: {fileID: 4503412696523355221}
   - component: {fileID: 6170347950134339742}
-  - component: {fileID: -4840120821912878046}
   m_Layer: 8
   m_Name: Enemy_Anger
   m_TagString: Enemy
@@ -147,6 +147,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &272503980291716993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272503980291717003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderCamera: {fileID: 0}
+  manualFire: 0
+  bulletSettings: {fileID: 11400000, guid: a03a20a1038d53f49bf4054c6decf554, type: 2}
+  spawnSettings: {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
+  currentActiveBullets: 0
+  maxActiveBullets: 0
+  seed: 
+  randomiseSeedOnAwake: 1
+  rotateSpeed: 0
+  playingEditorAnimation: 0
+  OnBulletDied:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletSpawned:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWeaponFired:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &272503980291716992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,37 +293,3 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
   spawnSettingsArray:
   - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
---- !u!114 &-4840120821912878046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272503980291717003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 5968324999985749137, guid: eae8b80522ab99b4d9bb313c36bf06db, type: 3}
-  manualFire: 0
-  bulletSettings: {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
-  spawnSettings: {fileID: 11400000, guid: e0ce0bc0a760d2f4fb00510167af7fb5, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 0
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []

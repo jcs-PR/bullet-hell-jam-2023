@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 6352378351172105610}
   - component: {fileID: 6352378351172105609}
   - component: {fileID: 1229940179}
+  - component: {fileID: 1229940180}
   - component: {fileID: 1229940187}
   - component: {fileID: 1229940188}
   - component: {fileID: 6156794738353308147}
   - component: {fileID: 1392365938458097834}
-  - component: {fileID: -1214437900761715520}
   m_Layer: 8
   m_Name: Enemy_White
   m_TagString: Enemy
@@ -157,6 +157,40 @@ MonoBehaviour:
   phaseOneHealth: 80
   phaseTwoHealth: 50
   phaseThreeHealth: 30
+--- !u!114 &1229940180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352378351172105623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderCamera: {fileID: 0}
+  manualFire: 0
+  bulletSettings: {fileID: 11400000, guid: a03a20a1038d53f49bf4054c6decf554, type: 2}
+  spawnSettings: {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
+  currentActiveBullets: 0
+  maxActiveBullets: 0
+  seed: 
+  randomiseSeedOnAwake: 1
+  rotateSpeed: 0
+  playingEditorAnimation: 1
+  OnBulletDied:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBulletSpawned:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWeaponFired:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1229940187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumTurnSpeed: 360
-  player: {fileID: 3703841084916192241, guid: 5bb9e71882630014fbe3025ee3938037, type: 3}
+  player: {fileID: 0}
 --- !u!114 &1392365938458097834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,48 +272,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ee3712a85f233644aca66f3229e0a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  phasingEnabled: 1
+  phasingEnabled: 0
   bulletSettingsArray:
-  - {fileID: 11400000, guid: a35022e723af4cf4d893cff958e9a7b0, type: 2}
   - {fileID: 11400000, guid: a03a20a1038d53f49bf4054c6decf554, type: 2}
   - {fileID: 11400000, guid: 8462cd0926af801458e08b3708bc0ac3, type: 2}
   - {fileID: 11400000, guid: 2a4c907c2ad1b464d8e13f254a8e5be9, type: 2}
   spawnSettingsArray:
-  - {fileID: 11400000, guid: 93d14c32b2450af4f88e84ff6ea5f9c6, type: 2}
   - {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
   - {fileID: 11400000, guid: 879622451e9fe4a499f5d49c7726f2c2, type: 2}
   - {fileID: 11400000, guid: c55702b7423f3304f90c47978cea7979, type: 2}
---- !u!114 &-1214437900761715520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6352378351172105623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4b3b583b5c6d4f4cab32fe763227ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderCamera: {fileID: 5968324999985749137, guid: eae8b80522ab99b4d9bb313c36bf06db, type: 3}
-  manualFire: 0
-  bulletSettings: {fileID: 11400000, guid: a03a20a1038d53f49bf4054c6decf554, type: 2}
-  spawnSettings: {fileID: 11400000, guid: a4f909363dbc36e4aa3c70b2cdb6eb99, type: 2}
-  currentActiveBullets: 0
-  maxActiveBullets: 0
-  seed: 
-  randomiseSeedOnAwake: 1
-  rotateSpeed: 0
-  playingEditorAnimation: 0
-  OnBulletDied:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletCancelled:
-    m_PersistentCalls:
-      m_Calls: []
-  OnBulletSpawned:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWeaponFired:
-    m_PersistentCalls:
-      m_Calls: []

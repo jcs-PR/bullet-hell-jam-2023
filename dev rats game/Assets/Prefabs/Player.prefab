@@ -291,10 +291,10 @@ GameObject:
   - component: {fileID: 846440353}
   - component: {fileID: 846440354}
   - component: {fileID: 6450565513757978257}
-  - component: {fileID: 5813783576899299711}
   - component: {fileID: 5560184637171931857}
   - component: {fileID: 1972119445623515600}
   - component: {fileID: 8192080784013698068}
+  - component: {fileID: 7834054181162086587}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -430,7 +430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8668b01ab0982ee4eae79bf23701b04f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
   p1Speed: 500
   inputSmoothing: 0.2
   dashSmoothing: 0.1
@@ -452,20 +451,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 100
---- !u!114 &5813783576899299711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3703841084916192243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7161f7a77787bd4c90907e82dd6ad44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shield: {fileID: 1037632475638869321}
-  aiming: 0
 --- !u!114 &5560184637171931857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,3 +539,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthToReduce: 1
+--- !u!114 &7834054181162086587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703841084916192243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742dbe12bdbebec4cb97800680072f75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBulletAmount: 500
+  infinityEnabled: 1
+  shield: {fileID: 1037632475638869321}
+  aiming: 0

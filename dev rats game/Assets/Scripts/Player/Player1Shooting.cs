@@ -15,6 +15,11 @@ public class Player1Shooting : MonoBehaviour
 
     private GameManager _gameManager;
     
+    [SerializeField] private ForceField shield;
+    [HideInInspector] public bool aiming;
+    
+    float bulletSpeed;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +28,9 @@ public class Player1Shooting : MonoBehaviour
         _bm = GetComponent<BulletManager>();
 
         _bulletAmount = maxBulletAmount;
+        bulletSpeed = _bm.GetBulletSettings().Speed;
+        
+        aiming = false;
     }
 
     // Update is called once per frame
@@ -41,8 +49,23 @@ public class Player1Shooting : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
-            _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ? transform.up : transform.forward);
-            _bulletAmount -= 1;
+            if (Input.GetMouseButton(0))
+            {
+                aiming = true;
+                _bm.GetBulletSettings().SetSpeed(bulletSpeed * Time.deltaTime);
+                _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ?
+                    transform.up : transform.forward);
+            }
+            else if (Input.GetMouseButton(1))
+            {
+                aiming = true;
+                shield.MakeAvailable();
+            }
+            else
+            {
+                shield.MakeUnavailable();
+                aiming = false;
+            }
         }
     }
 
