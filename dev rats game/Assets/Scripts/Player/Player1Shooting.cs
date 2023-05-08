@@ -51,20 +51,8 @@ public class Player1Shooting : MonoBehaviour
         {
             if (Input.GetMouseButton(0))
             {
-                aiming = true;
-                _bm.GetBulletSettings().SetSpeed(bulletSpeed * Time.deltaTime);
-                _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ?
-                    transform.up : transform.forward);
-            }
-            else if (Input.GetMouseButton(1))
-            {
-                aiming = true;
-                shield.MakeAvailable();
-            }
-            else
-            {
-                shield.MakeUnavailable();
-                aiming = false;
+                _bm.Spawn(transform.position, _bm.Plane == BulletPlane.XY ? transform.up : transform.forward);
+                _bulletAmount -= 1;
             }
         }
     }

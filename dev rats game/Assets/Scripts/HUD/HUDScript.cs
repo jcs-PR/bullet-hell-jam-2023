@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private string firstLevelName = "lvl01";
 
     [SerializeField] private TMP_Text ammoTxt;
+    [SerializeField] private TMP_Text ammoAmountTxt;
     [SerializeField] private TMP_Text healthAmountTxt;
 
     [FormerlySerializedAs("_player1Shooting")] [SerializeField] Player1Shooting player1Shooting;
@@ -22,6 +24,10 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private Slider healthSlider;
 
     [SerializeField] private GameObject pausePanel;
+
+    private bool _localeButtonActive = false;
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +40,22 @@ public class HUDScript : MonoBehaviour
     void Update()
     {
         UpdateHUDValues();
+    }
+
+    public void ChangeLanguage(int localeID)
+    {
+        if (_localeButtonActive)
+            return;
+        StartCoroutine(SetLanguage(localeID));
+    }
+
+    IEnumerator SetLanguage(int _localeID)
+    {
+        _localeButtonActive = true;
+        yield return LocalizationSettings.InitializationOperation;
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[_localeID];
+        _localeButtonActive = false;
+
     }
 
     void UpdateHUDValues()
@@ -66,14 +88,12 @@ public class HUDScript : MonoBehaviour
         if (player1Shooting.GetInfinityEnabled())
         {
             char infinitySymbol = '\u221e';
-            string newInfinityAmmoTxt = "Ammo \n" + infinitySymbol.ToString();
-            ammoTxt.text = newInfinityAmmoTxt;
+            ammoAmountTxt.text = infinitySymbol.ToString();
         }
         
         else if (!player1Shooting.GetInfinityEnabled())
         {
-            string newStandardArrowTxt = "Ammo \n" + player1Shooting.GetBulletAmount().ToString();
-            ammoTxt.text = newStandardArrowTxt;
+            ammoAmountTxt.text = player1Shooting.GetBulletAmount().ToString();
         }
 
     }
@@ -104,3 +124,5 @@ public class HUDScript : MonoBehaviour
 // https://stackoverflow.com/a/10806963
 // Unicode for Unity C#:
 // http://answers.unity.com/answers/170110/view.html
+// Language change:
+// https://youtu.be/qcXuvd7qSxg
