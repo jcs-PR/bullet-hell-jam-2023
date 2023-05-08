@@ -6,25 +6,32 @@ using UnityEngine.Serialization;
 
 public class Player1Movement : MonoBehaviour
 {
-    [FormerlySerializedAs("_p1Speed")][SerializeField] private float p1Speed = 5f;
-
-    [Range(0f, 2f)][Tooltip("Amount of time takes input to transition")]
+    [SerializeField] private Camera cam;
+    [FormerlySerializedAs("_p1Speed")][SerializeField] private float p1Speed = 500f;
+    [Range(0f, 2f)]
+    [Tooltip("Amount of time takes input to transition")]
     [FormerlySerializedAs("_smoothSpeed")]
     [SerializeField] private float inputSmoothing = 0.2f;
-    [Range(0f, 2f)][FormerlySerializedAs("_dashSmoothing")]
+    [Range(0f, 2f)]
+    [FormerlySerializedAs("_dashSmoothing")]
     [SerializeField] private float dashSmoothing = 0.1f;
     [FormerlySerializedAs("_dashLength")]
     [SerializeField] private float dashLength = 5f;
-    [Tooltip("Time it takes do dash again")][FormerlySerializedAs("_dashCharge")]
+    [Tooltip("Time it takes do dash again")]
+    [FormerlySerializedAs("_dashCharge")]
     [Range(0f, 5f)][SerializeField] private float dashCharge = 1f;
     [SerializeField] private LayerMask dashLayer;
 
     //Private variables
     Rigidbody2D _rigidbody2D;
+    Player1Combat shootingScript;
     Vector2 targetInput;
     Vector2 currentInput;
+    //smoothing velocities
     Vector3 inputVelocity;
     Vector3 dashVelocity;
+    Vector3 shootVelocity;
+
     Vector2 playerSize;
     Vector2 dashTarget;
     bool canDash;
@@ -33,7 +40,8 @@ public class Player1Movement : MonoBehaviour
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        playerSize = this.GetComponent<BoxCollider2D>().bounds.extents;
+        playerSize = this.GetComponent<CircleCollider2D>().bounds.extents;
+        shootingScript = GetComponent<Player1Combat>();
         curDashCharge = dashCharge;
         canDash = false;
     }
@@ -42,8 +50,10 @@ public class Player1Movement : MonoBehaviour
     {
         CheckForDash();
         SmoothInput();
-        if(targetInput.magnitude != 0)
+        if (targetInput.magnitude != 0 && !shootingScript.aiming)
             RotateWithMovement();
+        else if (shootingScript.aiming)
+            RotateToMousePos();
     }
     void FixedUpdate()
     {
@@ -72,6 +82,13 @@ public class Player1Movement : MonoBehaviour
         transform.up = (targetPos - transform.position);
     }
 
+    private void RotateToMousePos()
+    {
+        Vector2 targetPos = cam.ScreenToWorldPoint(Input.mousePosition);
+        transform.up = Vector3.SmoothDamp(transform.up, (targetPos - new Vector2
+            (transform.position.x, transform.position.y)), ref shootVelocity, 0.1f);
+    }
+
     private void Dash()
     {
         _rigidbody2D.MovePosition(Vector3.SmoothDamp(_rigidbody2D.position, dashTarget,
@@ -89,10 +106,12 @@ public class Player1Movement : MonoBehaviour
             RaycastHit2D hit = Physics2D.BoxCast(transform.position,
                 playerSize, 0, dashDir, dashLength, dashLayer);
 
-            if (hit.collider != null)
+            float smallPoint = (hit.point - new Vector2(transform.position.x,
+                transform.position.y)).magnitude - playerSize.magnitude;
+            if (hit.collider != null && smallPoint > 0.1f)
             {
                 //Dash at the position of Impact (Doesn't passes through objects)
-                dashTarget = hit.point + (playerSize.magnitude * -dashDir);
+                dashTarget = hit.point + ((playerSize.magnitude + 0.1f) * -dashDir);
             }
 
             else

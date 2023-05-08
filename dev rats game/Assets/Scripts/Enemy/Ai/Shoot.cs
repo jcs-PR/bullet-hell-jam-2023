@@ -20,7 +20,7 @@ public class Shoot : MonoBehaviour
 
     private void Start()
     {
-        _bm = GetComponent<BulletManager>();
+        _bm = GetComponentInChildren<BulletManager>();
         bulletSpeed = _bm.GetBulletSettings().Speed;
         _aim = GetComponent<Aim>();
         canAttack = false;

@@ -33,9 +33,9 @@ public class Player1Health : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public void SetPlayerHealth(int healthToSet)
+    public void SetPlayerHealth(float healthToSet)
     {
-        playerHealth = healthToSet;
+        playerHealth = (int) healthToSet;
     }
 
     public int GetPlayerStartingHealth()
