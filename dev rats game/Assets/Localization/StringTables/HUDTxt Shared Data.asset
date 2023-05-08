@@ -35,6 +35,10 @@ MonoBehaviour:
     m_Key: Quit Game Button
     m_Metadata:
       m_Items: []
+  - m_Id: 2405103050420224
+    m_Key: Restart Game Button
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
