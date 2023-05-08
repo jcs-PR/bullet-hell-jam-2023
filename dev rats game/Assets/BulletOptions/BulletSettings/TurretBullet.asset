@@ -18,7 +18,7 @@ MonoBehaviour:
   waitToStart: 0
   timeToPlayWhileWaiting: 0
   lifetime: 1
-  speed: 10
+  speed: 300
   moveWithTransform: 0
   rotateWithTransform: 0
   damage: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  useRotationOverTime: 1
+  useRotationOverTime: 0
   rotationCurveUsage: 0
   rotationCurveTime: 0
   rotationOverTime:
@@ -95,15 +95,15 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2
-      outSlope: 2
+      inSlope: 4.678357
+      outSlope: 4.678357
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.05084611
     - serializedVersion: 3
-      time: 0.9958191
-      value: 0.5098953
+      time: 0.24481201
+      value: 0.49998474
       inSlope: 0
       outSlope: 0
       tangentMode: 0

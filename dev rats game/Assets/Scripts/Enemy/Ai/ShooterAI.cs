@@ -148,7 +148,6 @@ public class ShooterAI : MonoBehaviour
             grid.NodeFromWorldPosition(player.position))
         {
             MoveInAttackRange();
-            GetComponent<SpriteRenderer>().color = Color.white;
         }
 
         if (previousBehaviour != currentBehaviour)
@@ -205,7 +204,6 @@ public class ShooterAI : MonoBehaviour
     private void Attack()
     {
         StartCoroutine(IncreaseTensionOvetime());
-        GetComponent<SpriteRenderer>().color = Color.red;
         if(tension >= maxTension)
         {
             tension = 0f;

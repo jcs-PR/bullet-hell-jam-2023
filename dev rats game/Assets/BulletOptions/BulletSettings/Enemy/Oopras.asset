@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82dffc9fcebd41c894fc9c65a04b4cda, type: 3}
-  m_Name: Random
+  m_Name: Oopras
   m_EditorClassIdentifier: 
   mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 1e2d9e497a9c9494b9a879b878ca070a, type: 2}
   plane: 0
   waitToStart: 0
   timeToPlayWhileWaiting: 0
-  lifetime: 1
-  speed: 250
+  lifetime: 5
+  speed: 500
   moveWithTransform: 0
   rotateWithTransform: 0
   damage: 1
-  size: 1
+  size: 2
   colliderSize: 1
   angularVelocity: 0
-  startColor: {r: 1, g: 1, b: 1, a: 1}
-  useColorOverTime: 1
+  startColor: {r: 0.14117648, g: 0, b: 0.26666668, a: 1}
+  useColorOverTime: 0
   colorCurveUsage: 0
   colorCurveTime: 0
   colorOverTime:
@@ -63,25 +63,7 @@ MonoBehaviour:
   rotationCurveTime: 0
   rotationOverTime:
     serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

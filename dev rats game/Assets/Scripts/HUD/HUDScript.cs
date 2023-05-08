@@ -18,7 +18,7 @@ public class HUDScript : MonoBehaviour
     [SerializeField] private TMP_Text ammoAmountTxt;
     [SerializeField] private TMP_Text healthAmountTxt;
 
-    [FormerlySerializedAs("_player1Shooting")] [SerializeField] Player1Shooting player1Shooting;
+    [FormerlySerializedAs("_player1Shooting")] [SerializeField] Player1Combat player1Shooting;
     [FormerlySerializedAs("_player1Health")] [SerializeField] Player1Health player1Health;
 
     [SerializeField] private Slider healthSlider;

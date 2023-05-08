@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Quit Game
     m_Metadata:
       m_Items: []
+  - m_Id: 2405103050420224
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

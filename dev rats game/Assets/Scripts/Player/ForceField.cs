@@ -47,8 +47,8 @@ public class ForceField : MonoBehaviour
         prevSteps = _steps;
         maxSteps = _steps * multiplier;
         canRegen = false;
-        DrawForceField();
-        GenerateCollider();
+        //DrawForceField();
+        //GenerateCollider();
     }
 
     private void Update()
